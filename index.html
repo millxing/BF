@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Washington Street Journal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="top-nav">
+        <a class="brand" href="#">Washington Street Journal</a>
+      </nav>
+      <p class="site-subtitle">A Resource For Information About Brookline's FInances</p>
+
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Search posts">
+        <label class="search-wrap" for="search-posts">
+          <span class="sr-only">Search posts</span>
+          <input
+            id="search-posts"
+            type="search"
+            placeholder="Search posts"
+            autocomplete="off"
+          />
+        </label>
+      </section>
+
+      <section id="post-list" class="post-list" aria-live="polite"></section>
+    </main>
+
+    <template id="post-template">
+      <article class="post-card">
+        <p class="post-meta">
+          <span class="post-date"></span>
+        </p>
+        <h2 class="post-title"></h2>
+        <p class="post-excerpt"></p>
+        <div class="post-body" hidden></div>
+        <button class="read-more" type="button" aria-expanded="false">Read more</button>
+      </article>
+    </template>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
