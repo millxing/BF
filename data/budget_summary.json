@@ -1,0 +1,47 @@
+[
+  {
+    "fiscalYear": "FY2027",
+    "category": "Operating Budget (Town + Schools)",
+    "amount": 481100000,
+    "percentOfTotal": 100,
+    "notes": "Reported in FY2027 Financial Plan overview.",
+    "sourceLabel": "FY2027 Financial Plan",
+    "sourceUrl": "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M"
+  },
+  {
+    "fiscalYear": "FY2027",
+    "category": "Proposed Override",
+    "amount": 5310000,
+    "percentOfTotal": 1.1,
+    "notes": "Proposed Proposition 2 1/2 override amount.",
+    "sourceLabel": "FY2027 Financial Plan",
+    "sourceUrl": "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M"
+  },
+  {
+    "fiscalYear": "FY2027",
+    "category": "Town Initial Structural Gap",
+    "amount": 3000000,
+    "percentOfTotal": 0.6,
+    "notes": "Initial gap before proposed efficiencies and revenue adjustments.",
+    "sourceLabel": "FY2027 Financial Plan",
+    "sourceUrl": "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M"
+  },
+  {
+    "fiscalYear": "FY2027",
+    "category": "Public Schools Projected Gap",
+    "amount": 6000000,
+    "percentOfTotal": 1.2,
+    "notes": "Plan cites a projected school budget gap exceeding this amount.",
+    "sourceLabel": "FY2027 Financial Plan",
+    "sourceUrl": "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M"
+  },
+  {
+    "fiscalYear": "FY2027",
+    "category": "Anticipated Free Cash",
+    "amount": 23000000,
+    "percentOfTotal": 4.8,
+    "notes": "Largely allocated to capital, reserves, and liabilities.",
+    "sourceLabel": "FY2027 Financial Plan",
+    "sourceUrl": "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M"
+  }
+]

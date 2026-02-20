@@ -24,19 +24,57 @@
     </header>
 
     <main>
-      <section class="controls" aria-label="Search posts">
+      <section class="controls" aria-label="View controls">
+        <div class="view-tabs" role="tablist" aria-label="Homepage views">
+          <button
+            class="view-tab"
+            id="tab-journal"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            aria-controls="view-content"
+            data-view="journal"
+          >
+            Journal
+          </button>
+          <button
+            class="view-tab"
+            id="tab-meetings"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="view-content"
+            tabindex="-1"
+            data-view="meetings"
+          >
+            Meetings
+          </button>
+          <button
+            class="view-tab"
+            id="tab-budget"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="view-content"
+            tabindex="-1"
+            data-view="budget"
+          >
+            Budget Data
+          </button>
+        </div>
+        <p id="view-meta" class="view-meta" hidden></p>
         <label class="search-wrap" for="search-posts">
-          <span class="sr-only">Search posts</span>
+          <span class="sr-only">Search current view</span>
           <input
             id="search-posts"
             type="search"
-            placeholder="Search posts"
+            placeholder="Search journal posts"
             autocomplete="off"
           />
         </label>
       </section>
 
-      <section id="post-list" class="post-list" aria-live="polite"></section>
+      <section id="view-content" class="view-content post-list" aria-live="polite"></section>
     </main>
 
     <template id="post-template">
