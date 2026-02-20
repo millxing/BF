@@ -80,47 +80,94 @@ const defaultBudgetRows = [
     fiscalYear: "FY2027",
     category: "Operating Budget (Town + Schools)",
     amount: 481100000,
+    priorAmount: 464800000,
+    deltaAmount: 16300000,
+    deltaPercent: 3.5,
     percentOfTotal: 100,
+    fundType: "operating",
+    isOneTime: false,
     notes: "Reported in FY2027 Financial Plan overview.",
+    sourceDoc: "FY2027 Financial Plan",
+    sourcePage: "Overview",
     sourceLabel: "FY2027 Financial Plan",
-    sourceUrl: "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M"
+    sourceUrl: "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M",
+    metricKey: "operating_total"
   },
   {
     fiscalYear: "FY2027",
     category: "Proposed Override",
     amount: 5310000,
+    priorAmount: 0,
+    deltaAmount: 5310000,
+    deltaPercent: null,
     percentOfTotal: 1.1,
+    fundType: "revenue",
+    isOneTime: false,
     notes: "Proposed Proposition 2 1/2 override amount.",
+    sourceDoc: "FY2027 Financial Plan",
+    sourcePage: "Budget Message",
     sourceLabel: "FY2027 Financial Plan",
-    sourceUrl: "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M"
+    sourceUrl: "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M",
+    metricKey: "override"
   },
   {
     fiscalYear: "FY2027",
     category: "Town Initial Structural Gap",
     amount: 3000000,
+    priorAmount: 2100000,
+    deltaAmount: 900000,
+    deltaPercent: 42.9,
     percentOfTotal: 0.6,
+    fundType: "operating",
+    isOneTime: false,
     notes: "Initial gap before proposed efficiencies and revenue adjustments.",
+    sourceDoc: "FY2027 Financial Plan",
+    sourcePage: "Budget Message",
     sourceLabel: "FY2027 Financial Plan",
-    sourceUrl: "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M"
+    sourceUrl: "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M",
+    metricKey: "town_gap"
   },
   {
     fiscalYear: "FY2027",
     category: "Public Schools Projected Gap",
     amount: 6000000,
+    priorAmount: 4800000,
+    deltaAmount: 1200000,
+    deltaPercent: 25,
     percentOfTotal: 1.2,
+    fundType: "operating",
+    isOneTime: false,
     notes: "Plan cites a projected school budget gap exceeding this amount.",
+    sourceDoc: "FY2027 Financial Plan",
+    sourcePage: "Budget Message",
     sourceLabel: "FY2027 Financial Plan",
-    sourceUrl: "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M"
+    sourceUrl: "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M",
+    metricKey: "school_gap"
   },
   {
     fiscalYear: "FY2027",
     category: "Anticipated Free Cash",
     amount: 23000000,
+    priorAmount: 20100000,
+    deltaAmount: 2900000,
+    deltaPercent: 14.4,
     percentOfTotal: 4.8,
+    fundType: "capital",
+    isOneTime: true,
     notes: "Largely allocated to capital, reserves, and liabilities.",
+    sourceDoc: "FY2027 Financial Plan",
+    sourcePage: "Budget Message",
     sourceLabel: "FY2027 Financial Plan",
-    sourceUrl: "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M"
+    sourceUrl: "https://stories.opengov.com/brooklinema/5cf061e0-65c6-428e-be0f-fee5a4848e8f/published/mpRiIYj5M",
+    metricKey: "free_cash"
   }
+];
+
+const budgetFundTypeOptions = [
+  { key: "all", label: "All Funds" },
+  { key: "operating", label: "Operating" },
+  { key: "capital", label: "Capital" },
+  { key: "revenue", label: "Revenue" }
 ];
 
 const views = {
@@ -155,6 +202,7 @@ const state = {
     count: initialMeetingsMeta?.count || initialMeetingsData.length
   },
   budgetRows: defaultBudgetRows,
+  budgetFundFilter: "all",
   budgetSort: {
     key: "amount",
     direction: "desc"
@@ -242,6 +290,86 @@ function formatCurrency(value) {
   }).format(value);
 }
 
+function formatSignedCurrency(value) {
+  if (typeof value !== "number" || Number.isNaN(value)) {
+    return "-";
+  }
+
+  if (value === 0) {
+    return "$0";
+  }
+
+  return `${value > 0 ? "+" : "-"}${formatCurrency(Math.abs(value))}`;
+}
+
+function formatPercent(value) {
+  if (typeof value !== "number" || Number.isNaN(value)) {
+    return "-";
+  }
+
+  return `${value.toFixed(1)}%`;
+}
+
+function formatSignedPercent(value) {
+  if (typeof value !== "number" || Number.isNaN(value)) {
+    return "-";
+  }
+
+  if (value === 0) {
+    return "0.0%";
+  }
+
+  return `${value > 0 ? "+" : ""}${value.toFixed(1)}%`;
+}
+
+function parseFiscalYearNumber(value) {
+  const match = `${value || ""}`.match(/(\d{2,4})/);
+  if (!match) {
+    return null;
+  }
+
+  const parsed = Number(match[1]);
+  if (!Number.isFinite(parsed)) {
+    return null;
+  }
+
+  return parsed < 100 ? parsed + 2000 : parsed;
+}
+
+function getLatestFiscalYear(rows) {
+  let latest = null;
+
+  rows.forEach((row) => {
+    const year = parseFiscalYearNumber(row.fiscalYear);
+    if (year && (!latest || year > latest)) {
+      latest = year;
+    }
+  });
+
+  return latest ? `FY${latest}` : null;
+}
+
+function formatFundType(value) {
+  const key = normalizeText(value);
+  if (key === "operating") {
+    return "Operating";
+  }
+  if (key === "capital") {
+    return "Capital";
+  }
+  if (key === "revenue") {
+    return "Revenue";
+  }
+  return "-";
+}
+
+function getBudgetTrendClass(value) {
+  if (typeof value !== "number" || Number.isNaN(value) || value === 0) {
+    return "";
+  }
+  return value > 0 ? "budget-up" : "budget-down";
+}
+
 function setTabState() {
   tabs.forEach((tab) => {
     const tabView = tab.dataset.view;
@@ -271,8 +399,8 @@ function updateViewMeta() {
 
   if (state.activeView === "budget") {
     viewMeta.hidden = false;
-    // viewMeta.textContent = "Summary-level figures are stored locally in data/budget_summary.json.";
-    viewMeta.textContent = "BETA FEATURE, UNDER RENOVATION";
+    viewMeta.textContent =
+      "Budget rows are stored in data/budget_summary.json with prior-year deltas and source references.";
     return;
   }
 
@@ -396,26 +524,38 @@ function sortBudgetRows(rows) {
   const sign = direction === "asc" ? 1 : -1;
 
   return [...rows].sort((a, b) => {
-    const left = a[key];
-    const right = b[key];
+    let left = a[key];
+    let right = b[key];
+
+    if (key === "fiscalYear") {
+      left = parseFiscalYearNumber(left) || 0;
+      right = parseFiscalYearNumber(right) || 0;
+    } else if (key === "isOneTime") {
+      left = left === true ? 1 : 0;
+      right = right === true ? 1 : 0;
+    }
 
     if (typeof left === "number" && typeof right === "number") {
       return (left - right) * sign;
     }
 
-    return `${left || ""}`.localeCompare(`${right || ""}`) * sign;
+    return `${left || ""}`.toLowerCase().localeCompare(`${right || ""}`.toLowerCase()) * sign;
   });
 }
 
 function filterBudgetRows() {
   const normalizedQuery = normalizeText(state.query);
-
-  if (!normalizedQuery) {
-    return sortBudgetRows(state.budgetRows);
-  }
-
   const filteredRows = state.budgetRows.filter((row) => {
-    const content = `${row.fiscalYear || ""} ${row.category || ""} ${row.notes || ""}`.toLowerCase();
+    if (state.budgetFundFilter !== "all" && row.fundType !== state.budgetFundFilter) {
+      return false;
+    }
+
+    if (!normalizedQuery) {
+      return true;
+    }
+
+    const content =
+      `${row.fiscalYear || ""} ${row.category || ""} ${row.fundType || ""} ${row.notes || ""} ${row.sourceDoc || ""} ${row.sourcePage || ""}`.toLowerCase();
     return content.includes(normalizedQuery);
   });
 
@@ -571,11 +711,92 @@ function onBudgetSortClick(key) {
   if (state.budgetSort.key === key) {
     state.budgetSort.direction = state.budgetSort.direction === "asc" ? "desc" : "asc";
   } else {
+    const textSortKeys = ["fiscalYear", "category", "fundType", "isOneTime", "sourceDoc"];
     state.budgetSort.key = key;
-    state.budgetSort.direction = key === "category" || key === "fiscalYear" ? "asc" : "desc";
+    state.budgetSort.direction = textSortKeys.includes(key) ? "asc" : "desc";
   }
 
   renderBudget();
+}
+
+function onBudgetFundFilterClick(nextFilter) {
+  if (state.budgetFundFilter === nextFilter) {
+    return;
+  }
+
+  state.budgetFundFilter = nextFilter;
+  renderBudget();
+}
+
+function createBudgetKpiCard(label, value, meta) {
+  const card = document.createElement("article");
+  card.className = "budget-kpi";
+
+  const heading = document.createElement("h3");
+  heading.className = "budget-kpi-label";
+  heading.textContent = label;
+
+  const amount = document.createElement("p");
+  amount.className = "budget-kpi-value";
+  amount.textContent = value;
+
+  const detail = document.createElement("p");
+  detail.className = "budget-kpi-meta";
+  detail.textContent = meta || "";
+
+  card.append(heading, amount, detail);
+  return card;
+}
+
+function renderBudgetKpis(shell) {
+  const latestFiscalYear = getLatestFiscalYear(state.budgetRows);
+  const getMetricRow = (key) =>
+    state.budgetRows.find((row) => row.metricKey === key && (!latestFiscalYear || row.fiscalYear === latestFiscalYear)) ||
+    state.budgetRows.find((row) => row.metricKey === key);
+
+  const operatingRow = getMetricRow("operating_total");
+  const overrideRow = getMetricRow("override");
+  const townGapRow = getMetricRow("town_gap");
+  const schoolGapRow = getMetricRow("school_gap");
+
+  const hasTownGap = Number.isFinite(townGapRow?.amount);
+  const hasSchoolGap = Number.isFinite(schoolGapRow?.amount);
+  const structuralGapTotal = hasTownGap || hasSchoolGap ? (hasTownGap ? townGapRow.amount : 0) + (hasSchoolGap ? schoolGapRow.amount : 0) : null;
+
+  const gapParts = [];
+  if (hasSchoolGap) {
+    gapParts.push(`Schools ${formatCurrency(schoolGapRow.amount)}`);
+  }
+  if (hasTownGap) {
+    gapParts.push(`Town ${formatCurrency(townGapRow.amount)}`);
+  }
+
+  const cards = [
+    createBudgetKpiCard(
+      `Operating Budget (${latestFiscalYear || "Latest"})`,
+      formatCurrency(operatingRow?.amount),
+      Number.isFinite(operatingRow?.deltaAmount)
+        ? `${formatSignedCurrency(operatingRow.deltaAmount)} (${formatSignedPercent(operatingRow.deltaPercent)}) vs prior FY`
+        : "Latest published operating total."
+    ),
+    createBudgetKpiCard(
+      `Proposed Override (${latestFiscalYear || "Latest"})`,
+      formatCurrency(overrideRow?.amount),
+      Number.isFinite(overrideRow?.percentOfTotal)
+        ? `${formatPercent(overrideRow.percentOfTotal)} of operating budget.`
+        : "Proposed Proposition 2 1/2 override amount."
+    ),
+    createBudgetKpiCard(
+      `Combined Structural Gap (${latestFiscalYear || "Latest"})`,
+      formatCurrency(structuralGapTotal),
+      gapParts.length ? gapParts.join(" + ") : "Town + schools projected gap."
+    )
+  ];
+
+  const grid = document.createElement("section");
+  grid.className = "budget-kpis";
+  cards.forEach((card) => grid.append(card));
+  shell.append(grid);
 }
 
 function renderBudget() {
@@ -591,6 +812,32 @@ function renderBudget() {
   const shell = document.createElement("div");
   shell.className = "budget-shell";
 
+  const tools = document.createElement("div");
+  tools.className = "budget-tools";
+
+  const filters = document.createElement("div");
+  filters.className = "budget-filters";
+
+  budgetFundTypeOptions.forEach((option) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "budget-filter";
+    button.textContent = option.label;
+    if (state.budgetFundFilter === option.key) {
+      button.classList.add("is-active");
+    }
+    button.addEventListener("click", () => onBudgetFundFilterClick(option.key));
+    filters.append(button);
+  });
+
+  const count = document.createElement("p");
+  count.className = "budget-count";
+  count.textContent = `Showing ${rows.length} of ${state.budgetRows.length} rows`;
+
+  tools.append(filters, count);
+  shell.append(tools);
+  renderBudgetKpis(shell);
+
   const wrap = document.createElement("div");
   wrap.className = "budget-table-wrap";
 
@@ -603,10 +850,15 @@ function renderBudget() {
   const headers = [
     { key: "fiscalYear", label: "Fiscal Year" },
     { key: "category", label: "Category" },
+    { key: "fundType", label: "Fund" },
     { key: "amount", label: "Amount" },
+    { key: "priorAmount", label: "Prior FY" },
+    { key: "deltaAmount", label: "Change ($)" },
+    { key: "deltaPercent", label: "Change (%)" },
+    { key: "isOneTime", label: "One-Time" },
     { key: "percentOfTotal", label: "% of Total" },
     { key: "notes", label: "Notes" },
-    { key: "sourceLabel", label: "Source" }
+    { key: "sourceDoc", label: "Source" }
   ];
 
   headers.forEach((header) => {
@@ -639,29 +891,59 @@ function renderBudget() {
     const category = document.createElement("td");
     category.textContent = row.category || "-";
 
+    const fundType = document.createElement("td");
+    fundType.className = "budget-fund";
+    fundType.textContent = formatFundType(row.fundType);
+
     const amount = document.createElement("td");
+    amount.className = "budget-number";
     amount.textContent = formatCurrency(row.amount);
 
+    const priorAmount = document.createElement("td");
+    priorAmount.className = "budget-number";
+    priorAmount.textContent = formatCurrency(row.priorAmount);
+
+    const deltaAmount = document.createElement("td");
+    deltaAmount.className = "budget-number";
+    deltaAmount.textContent = formatSignedCurrency(row.deltaAmount);
+    const deltaAmountClass = getBudgetTrendClass(row.deltaAmount);
+    if (deltaAmountClass) {
+      deltaAmount.classList.add(deltaAmountClass);
+    }
+
+    const deltaPercent = document.createElement("td");
+    deltaPercent.className = "budget-number";
+    deltaPercent.textContent = formatSignedPercent(row.deltaPercent);
+    const deltaPercentClass = getBudgetTrendClass(row.deltaPercent);
+    if (deltaPercentClass) {
+      deltaPercent.classList.add(deltaPercentClass);
+    }
+
+    const oneTime = document.createElement("td");
+    oneTime.textContent = row.isOneTime === true ? "Yes" : row.isOneTime === false ? "No" : "-";
+
     const percent = document.createElement("td");
-    percent.textContent = Number.isFinite(row.percentOfTotal) ? `${row.percentOfTotal.toFixed(1)}%` : "-";
+    percent.className = "budget-number";
+    percent.textContent = formatPercent(row.percentOfTotal);
 
     const notes = document.createElement("td");
     notes.textContent = row.notes || "-";
 
     const source = document.createElement("td");
+    const sourceText = [row.sourceDoc, row.sourcePage ? `p. ${row.sourcePage}` : ""].filter(Boolean).join(" · ") || "-";
     if (row.sourceUrl) {
       const sourceLink = document.createElement("a");
       sourceLink.className = "budget-source";
       sourceLink.href = row.sourceUrl;
       sourceLink.target = "_blank";
       sourceLink.rel = "noopener noreferrer";
-      sourceLink.textContent = row.sourceLabel || "Source";
+      sourceLink.textContent = sourceText;
       source.append(sourceLink);
     } else {
-      source.textContent = row.sourceLabel || "-";
+      source.textContent = sourceText;
     }
 
-    tr.append(fiscalYear, category, amount, percent, notes, source);
+    tr.append(fiscalYear, category, fundType, amount, priorAmount, deltaAmount, deltaPercent, oneTime, percent, notes, source);
     body.append(tr);
   });
 
@@ -712,15 +994,46 @@ function normalizeBudgetRow(row) {
   }
 
   const parsedAmount = typeof row.amount === "number" ? row.amount : Number(row.amount);
+  const parsedPriorAmount = typeof row.priorAmount === "number" ? row.priorAmount : Number(row.priorAmount);
+  const parsedDeltaAmount = typeof row.deltaAmount === "number" ? row.deltaAmount : Number(row.deltaAmount);
+  const parsedDeltaPercent = typeof row.deltaPercent === "number" ? row.deltaPercent : Number(row.deltaPercent);
   const parsedPercent =
     typeof row.percentOfTotal === "number" ? row.percentOfTotal : Number(row.percentOfTotal);
+  const normalizedAmount = Number.isFinite(parsedAmount) ? parsedAmount : null;
+  const normalizedPriorAmount = Number.isFinite(parsedPriorAmount) ? parsedPriorAmount : null;
+
+  let normalizedDeltaAmount = Number.isFinite(parsedDeltaAmount) ? parsedDeltaAmount : null;
+  if (normalizedDeltaAmount === null && normalizedAmount !== null && normalizedPriorAmount !== null) {
+    normalizedDeltaAmount = normalizedAmount - normalizedPriorAmount;
+  }
+
+  let normalizedDeltaPercent = Number.isFinite(parsedDeltaPercent) ? parsedDeltaPercent : null;
+  if (
+    normalizedDeltaPercent === null &&
+    normalizedDeltaAmount !== null &&
+    normalizedPriorAmount !== null &&
+    normalizedPriorAmount !== 0
+  ) {
+    normalizedDeltaPercent = (normalizedDeltaAmount / normalizedPriorAmount) * 100;
+  }
+
+  const fundType = normalizeText(row.fundType);
+  const normalizedFundType = ["operating", "capital", "revenue"].includes(fundType) ? fundType : "";
 
   return {
     fiscalYear: row.fiscalYear || row.fy || "",
     category: row.category || "",
-    amount: Number.isFinite(parsedAmount) ? parsedAmount : null,
+    fundType: normalizedFundType,
+    amount: normalizedAmount,
+    priorAmount: normalizedPriorAmount,
+    deltaAmount: normalizedDeltaAmount,
+    deltaPercent: normalizedDeltaPercent,
     percentOfTotal: Number.isFinite(parsedPercent) ? parsedPercent : null,
+    isOneTime: typeof row.isOneTime === "boolean" ? row.isOneTime : null,
     notes: row.notes || "",
+    sourceDoc: row.sourceDoc || row.sourceLabel || row.source || "",
+    sourcePage: row.sourcePage || "",
+    metricKey: row.metricKey || "",
     sourceLabel: row.sourceLabel || row.source || "",
     sourceUrl: row.sourceUrl || ""
   };
