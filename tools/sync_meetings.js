@@ -1951,6 +1951,18 @@ async function atomicWriteJson(filePath, data) {
   await fs.rename(tempPath, filePath);
 }
 
+async function atomicWriteText(filePath, content) {
+  const tempPath = `${filePath}.tmp`;
+  await fs.writeFile(tempPath, content, "utf8");
+  await fs.rename(tempPath, filePath);
+}
+
+function buildMeetingsDataScript(meetings, meta) {
+  const meetingsJson = JSON.stringify(meetings, null, 2);
+  const metaJson = JSON.stringify(meta, null, 2);
+  return `window.MEETINGS_DATA = ${meetingsJson};\n\nwindow.MEETINGS_META = ${metaJson};\n`;
+}
+
 async function run() {
   const args = parseArgs(process.argv.slice(2));
   if (args.help) {
@@ -2044,13 +2056,16 @@ async function run() {
 
   const meetingsPath = path.join(args.outDir, "meetings.json");
   const metaPath = path.join(args.outDir, "meetings_meta.json");
+  const scriptPath = path.join(args.outDir, "meetings_data.js");
 
   await atomicWriteJson(meetingsPath, meetings);
   await atomicWriteJson(metaPath, meta);
+  await atomicWriteText(scriptPath, buildMeetingsDataScript(meetings, meta));
 
   console.log(`Synced ${meetings.length} meetings.`);
   console.log(`Wrote ${meetingsPath}`);
   console.log(`Wrote ${metaPath}`);
+  console.log(`Wrote ${scriptPath}`);
 }
 
 run().catch((error) => {

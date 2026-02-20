@@ -12,7 +12,7 @@ const posts = [
   },
   {
     id: 5,
-    title: "FY2027 Financial Plan was released",
+    title: "FY2027 Financial Plan is now available",
     category: "journal",
     date: "February 16, 2026",
     excerpt:
@@ -141,15 +141,18 @@ const views = {
 const civicClerkSourceUrl =
   "https://brooklinema.portal.civicclerk.com/?category_id=28,37,43,54,144,125,26";
 
+const initialMeetingsData = Array.isArray(window.MEETINGS_DATA) ? window.MEETINGS_DATA : [];
+const initialMeetingsMeta =
+  window.MEETINGS_META && typeof window.MEETINGS_META === "object" ? window.MEETINGS_META : null;
+
 const state = {
   activeView: getViewFromHash(),
   query: "",
-  meetings: [],
-  meetingsLoadError: null,
+  meetings: initialMeetingsData,
   meetingsMeta: {
-    sourceUrl: civicClerkSourceUrl,
-    lastUpdated: null,
-    count: 0
+    sourceUrl: initialMeetingsMeta?.sourceUrl || civicClerkSourceUrl,
+    lastUpdated: initialMeetingsMeta?.lastUpdated || null,
+    count: initialMeetingsMeta?.count || initialMeetingsData.length
   },
   budgetRows: defaultBudgetRows,
   budgetSort: {
@@ -504,17 +507,8 @@ function renderMeetings() {
   if (!state.meetings.length) {
     const emptyState = document.createElement("p");
     emptyState.className = "empty-state";
-    if (state.meetingsLoadError) {
-      if (window.location.protocol === "file:") {
-        emptyState.innerHTML =
-          "Meetings data could not be loaded from <code>file://</code>. Preview this site via a local web server, for example <code>python3 -m http.server 8000</code>, then open <code>http://localhost:8000</code>.";
-      } else {
-        emptyState.textContent = `Meetings data failed to load (${state.meetingsLoadError}).`;
-      }
-    } else {
-      emptyState.innerHTML =
-        "No local meetings snapshot yet. Run <code>node tools/sync_meetings.js</code> from the CLI to pull data.";
-    }
+    emptyState.innerHTML =
+      "No local meetings snapshot yet. Run <code>node tools/sync_meetings.js</code> from the CLI to refresh <code>data/meetings_data.js</code>.";
     viewContent.append(emptyState);
     return;
   }
@@ -691,7 +685,7 @@ function renderActiveView() {
   renderJournal();
 }
 
-function normalizeMeeting(meeting) {
+function normalizeMeeting(meeting, fallbackSourceUrl = state.meetingsMeta.sourceUrl) {
   if (!meeting || typeof meeting !== "object") {
     return null;
   }
@@ -708,7 +702,7 @@ function normalizeMeeting(meeting) {
     packetUrl: meeting.packetUrl || null,
     mediaUrl: meeting.mediaUrl || null,
     meetingUrl: meeting.meetingUrl || null,
-    sourceUrl: meeting.sourceUrl || state.meetingsMeta.sourceUrl
+    sourceUrl: meeting.sourceUrl || fallbackSourceUrl
   };
 }
 
@@ -742,32 +736,29 @@ async function fetchJson(path) {
   return response.json();
 }
 
+function loadMeetingsDataFromWindow() {
+  const rawMeta = window.MEETINGS_META && typeof window.MEETINGS_META === "object" ? window.MEETINGS_META : {};
+  const sourceUrl = rawMeta.sourceUrl || civicClerkSourceUrl;
+  const rawMeetings = Array.isArray(window.MEETINGS_DATA) ? window.MEETINGS_DATA : [];
+  const meetings = rawMeetings.map((meeting) => normalizeMeeting(meeting, sourceUrl)).filter(Boolean);
+  const parsedCount = Number(rawMeta.count);
+
+  state.meetings = meetings;
+  state.meetingsMeta = {
+    sourceUrl,
+    lastUpdated: rawMeta.lastUpdated || null,
+    count: Number.isFinite(parsedCount) ? parsedCount : meetings.length
+  };
+}
+
 async function loadViewData() {
-  const results = await Promise.allSettled([
-    fetchJson("data/meetings.json"),
-    fetchJson("data/meetings_meta.json"),
-    fetchJson("data/budget_summary.json")
-  ]);
+  loadMeetingsDataFromWindow();
 
-  const [meetingsResult, meetingsMetaResult, budgetResult] = results;
+  const budgetResult = await Promise.allSettled([fetchJson("data/budget_summary.json")]);
+  const [budgetSummaryResult] = budgetResult;
 
-  if (meetingsResult.status === "fulfilled" && Array.isArray(meetingsResult.value)) {
-    state.meetings = meetingsResult.value.map(normalizeMeeting).filter(Boolean);
-    state.meetingsLoadError = null;
-  } else if (meetingsResult.status === "rejected") {
-    state.meetingsLoadError = meetingsResult.reason?.message || "Unable to load data/meetings.json";
-  }
-
-  if (meetingsMetaResult.status === "fulfilled" && meetingsMetaResult.value) {
-    state.meetingsMeta = {
-      sourceUrl: meetingsMetaResult.value.sourceUrl || civicClerkSourceUrl,
-      lastUpdated: meetingsMetaResult.value.lastUpdated || null,
-      count: meetingsMetaResult.value.count || state.meetings.length
-    };
-  }
-
-  if (budgetResult.status === "fulfilled" && Array.isArray(budgetResult.value)) {
-    const rows = budgetResult.value.map(normalizeBudgetRow).filter(Boolean);
+  if (budgetSummaryResult.status === "fulfilled" && Array.isArray(budgetSummaryResult.value)) {
+    const rows = budgetSummaryResult.value.map(normalizeBudgetRow).filter(Boolean);
     if (rows.length) {
       state.budgetRows = rows;
     }
