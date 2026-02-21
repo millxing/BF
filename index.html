@@ -14,53 +14,82 @@
   </head>
   <body>
     <div class="page-glow" aria-hidden="true"></div>
+    <section class="ticker-bar" id="secondary-ticker-bar" aria-label="Override ballot information ticker">
+      <div class="ticker-window">
+        <div class="ticker-track" id="override-ticker-track"></div>
+      </div>
+    </section>
+    <section class="ticker-bar" id="primary-ticker-bar" aria-label="FY2027 revenue and expenditure ticker">
+      <div class="ticker-window">
+        <div class="ticker-track" id="budget-ticker-track"></div>
+      </div>
+    </section>
 
     <header class="site-header">
       <nav class="top-nav">
         <a class="brand" href="#">Washington Street Journal</a>
       </nav>
-      <p class="site-subtitle">A Resource For Information About Brookline's FInances</p>
+      <p class="site-subtitle">A Resource For Information About Brookline's Finances</p>
 
     </header>
 
     <main>
       <section class="controls" aria-label="View controls">
-        <div class="view-tabs" role="tablist" aria-label="Homepage views">
-          <button
-            class="view-tab"
-            id="tab-journal"
-            type="button"
-            role="tab"
-            aria-selected="true"
-            aria-controls="view-content"
-            data-view="journal"
-          >
-            Journal
-          </button>
-          <button
-            class="view-tab"
-            id="tab-meetings"
-            type="button"
-            role="tab"
-            aria-selected="false"
-            aria-controls="view-content"
-            tabindex="-1"
-            data-view="meetings"
-          >
-            Meetings
-          </button>
-          <button
-            class="view-tab"
-            id="tab-budget"
-            type="button"
-            role="tab"
-            aria-selected="false"
-            aria-controls="view-content"
-            tabindex="-1"
-            data-view="budget"
-          >
-            Budget Data
-          </button>
+        <div class="view-menu-row">
+          <div class="view-tabs" id="view-tablist" role="tablist" aria-label="Homepage views">
+            <button
+              class="view-tab"
+              id="tab-journal"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              aria-controls="view-content"
+              data-view="journal"
+            >
+              Journal
+            </button>
+            <button
+              class="view-tab"
+              id="tab-meetings"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="view-content"
+              tabindex="-1"
+              data-view="meetings"
+            >
+              Meetings
+            </button>
+            <button
+              class="view-tab"
+              id="tab-budget"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="view-content"
+              tabindex="-1"
+              data-view="budget"
+            >
+              Budget Data
+            </button>
+            <button
+              class="view-tab"
+              id="tab-links"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="view-content"
+              tabindex="-1"
+              data-view="links"
+            >
+              Links
+            </button>
+          </div>
+          <div class="view-tabs view-links" aria-label="Quick links">
+            <a class="view-tab view-link" href="pages/fy2027_financial_plan_20260216.html">
+              FY2027 Financial Plan
+            </a>
+          </div>
         </div>
         <p id="view-meta" class="view-meta" hidden></p>
         <label class="search-wrap" for="search-posts">
@@ -89,7 +118,8 @@
       </article>
     </template>
 
-    <script src="data/meetings_data.js" defer></script>
+    <script src="civic/meetings_data.js" defer></script>
+    <script src="data/budget_summary_data.js" defer></script>
     <script src="script.js" defer></script>
   </body>
 </html>

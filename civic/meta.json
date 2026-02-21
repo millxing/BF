@@ -1,0 +1,21 @@
+{
+  "sourcePortalUrl": "https://brooklinema.portal.civicclerk.com/?category_id=28,59,144,87,26",
+  "apiBase": "https://brooklinema.api.civicclerk.com/v1",
+  "categories": [
+    28,
+    59,
+    144,
+    87,
+    26
+  ],
+  "startDateInclusive": "2026-01-01",
+  "endDateInclusive": "2026-03-31",
+  "startIsoInclusive": "2026-01-01T00:00:00Z",
+  "endIsoExclusive": "2026-04-01T00:00:00Z",
+  "fetchedAt": "2026-02-21T01:32:57.036Z",
+  "pagesFetched": 7,
+  "eventCount": 94,
+  "withAgendaCount": 70,
+  "withAgendaPacketCount": 56,
+  "withMediaCount": 51
+}
