@@ -3,7 +3,7 @@
 const posts = [
   {
     id: 10,
-    title: "ESRC Futures Committee report (February 13, 2026)",
+    title: "E&RSC Futures Committee report (February 13, 2026)",
     category: "journal",
     date: "February 20, 2026",
     excerpt: "The Futures Subcommittee report focuses on economic development strategy.",
@@ -11,12 +11,21 @@ const posts = [
   },
   {
     id: 9,
-    title: "ESRC Schools Subcommittee report (February 9, 2026)",
+    title: "E&RSC Schools Subcommittee report (February 9, 2026)",
     category: "journal",
     date: "February 20, 2026",
     excerpt:
       "Two major financial findings areas are discussed: unreimbursed special education for non-resident students and teacher salaries.",
     resourcePage: "pages/esrc_schools_subcommittee_report_20260220.html"
+  },
+  {
+    id: 11,
+    title: "Good Government for Brookline: Selling Surplus Property Should Be On the Table",
+    category: "journal",
+    date: "February 20, 2026",
+    excerpt:
+      "\"I believe a case can be made that disposal of one or more town properties would be an improvement over resorting to layoffs and curtailment of services.\"",
+    resourcePage: "pages/good_government_surplus_property_20260220.html"
   },
   {
     id: 6,
@@ -38,11 +47,11 @@ const posts = [
   },
   {
     id: 1,
-    title: "Draft Report from the Expenditures & Revenues Study Committee (ERSC)",
+    title: "Draft Report from the Expenditures & Revenues Study Committee (E&RSC)",
     category: "journal",
     date: "February 12, 2026",
     excerpt:
-      "Brookline's ERSC released a draft of their report on Brookline's financial health, which will ultimately contain recommendations to the Select Board regarding a possible override ballot question for the May 2026 election.",
+      "Brookline's E&RSC released a draft of their report on Brookline's financial health, which will ultimately contain recommendations to the Select Board regarding a possible override ballot question for the May 2026 election.",
     resourcePage: "pages/ersc_20260212.html"
   },
   {
