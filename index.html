@@ -29,6 +29,14 @@
       <nav class="top-nav">
         <a class="brand" href="#">Washington Street Journal</a>
       </nav>
+      <div class="disclaimer-wrap" tabindex="0" role="note" aria-label="Disclaimer: Please Read">
+        <span class="disclaimer-bubble">Disclaimer: Please Read</span>
+        <p class="disclaimer-overlay">
+          I have made a good-faith effort to post accurate data and information on this website.
+          If you find any inadvertent errors or misinterpretations, please send me an email:
+          robschoen dot robschoen at gmail.com. Thanks!
+        </p>
+      </div>
       <p class="site-subtitle">A Resource For Information About Brookline's Finances</p>
 
     </header>
@@ -45,9 +53,7 @@
               aria-selected="true"
               aria-controls="view-content"
               data-view="journal"
-            >
-              Journal
-            </button>
+            >Posts</button>
             <button
               class="view-tab"
               id="tab-meetings"
@@ -97,7 +103,7 @@
           <input
             id="search-posts"
             type="search"
-            placeholder="Search journal posts"
+            placeholder="Search posts"
             autocomplete="off"
           />
         </label>

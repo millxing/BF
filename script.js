@@ -2,6 +2,32 @@
 // Each object below renders one card on the homepage.
 const posts = [
   {
+    id: 15,
+    title: "Brookline Assessor's Database",
+    category: "journal",
+    date: "February 25, 2026",
+    excerpt: "This database has detailed property tax data for every property in Brookline.",
+    resourcePage: "pages/brookline_assessors_database_20260225.html"
+  },
+  {
+    id: 13,
+    title: "DLS data for Property Tax Statistics",
+    category: "journal",
+    date: "February 25, 2026",
+    excerpt:
+      "This website has annual assessment and tax revenue data for Brookline (and all other MA communities).",
+    resourcePage: "pages/dls_data_property_tax_statistics_20260225.html"
+  },
+  {
+    id: 12,
+    title: "Town Administrator's Budget 101",
+    category: "journal",
+    date: "February 25, 2026",
+    excerpt:
+      "Town Administrator will hold a Virtual Town Budget meeting to explain the Budget Process on February 26 at 1pm (90 minutes).",
+    resourcePage: "pages/town_administrator_budget_101_20260225.html"
+  },
+  {
     id: 10,
     title: "E&RSC Futures Committee report (February 13, 2026)",
     category: "journal",
@@ -98,6 +124,14 @@ const posts = [
     excerpt:
       "The FY27-FY Long Range Financial Plan was presented to the Advisory Committee on January 13, 2026.",
     resourcePage: "pages/LRF_20260113.html"
+  },
+  {
+    id: 14,
+    title: "Moderator's Brookline Fiscal Advisory Committee (2022)",
+    category: "journal",
+    date: "February 12, 2026",
+    excerpt: "Moderator's Brookline Fiscal Advisory Committee (2022)",
+    resourcePage: "pages/moderators_brookline_fiscal_advisory_committee_20260212.html"
   }
 ];
 
@@ -105,6 +139,18 @@ const resourceLinks = [
   {
     label: "Budget Central",
     url: "https://www.brooklinema.gov/851/Budget-Central"
+  },
+  {
+    label: "Brookline Assessor's Database",
+    url: "https://www.brooklinema.gov/DocumentCenter/Index/1562"
+  },
+  {
+    label: "Brookline Fiscal Advisory Committee",
+    url: "https://www.brooklinema.gov/3875/Arc-Moderators-Committee---Brookline-Fis"
+  },
+  {
+    label: "DLS data for Property Tax Statistics",
+    url: "https://dls-gw.dor.state.ma.us/reports/rdPage.aspx?rdReport=Dashboard.Cat3PropTaxStat"
   },
   {
     label: "FY2027 Financial Plan",
@@ -271,8 +317,8 @@ const budgetCategoryMenu = [
 
 const views = {
   journal: {
-    label: "Journal",
-    searchPlaceholder: "Search journal posts"
+    label: "Posts",
+    searchPlaceholder: "Search posts"
   },
   meetings: {
     label: "Meetings",
@@ -713,9 +759,8 @@ function updateViewMeta() {
   }
 
   if (state.activeView === "links") {
-    const visibleLinks = filterResourceLinks().length;
-    viewMeta.hidden = false;
-    viewMeta.textContent = `${visibleLinks} resource link${visibleLinks === 1 ? "" : "s"} shown.`;
+    viewMeta.hidden = true;
+    viewMeta.textContent = "";
     return;
   }
 
@@ -1122,15 +1167,16 @@ function renderBudget() {
 
   shell.append(categoryMenu);
 
+  const wipNotice = document.createElement("p");
+  wipNotice.className = "budget-wip-bubble";
+  wipNotice.textContent =
+    "Work in Progress. More data in a more useful format will be added at a later date.";
+  shell.append(wipNotice);
+
   const categoryTitle = document.createElement("h3");
   categoryTitle.className = "budget-category-title";
   categoryTitle.textContent = formatBudgetCategory(state.budgetCategory);
   shell.append(categoryTitle);
-
-  const count = document.createElement("p");
-  count.className = "budget-count";
-  count.textContent = `${rows.length} row${rows.length === 1 ? "" : "s"} in this category`;
-  shell.append(count);
 
   if (!rows.length) {
     const empty = document.createElement("p");

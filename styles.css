@@ -103,6 +103,52 @@ main {
   align-items: center;
 }
 
+.disclaimer-wrap {
+  position: absolute;
+  top: 0.58rem;
+  right: 0;
+  z-index: 35;
+}
+
+.disclaimer-bubble {
+  display: inline-block;
+  background: #ffc3dc;
+  color: #511f38;
+  border: 1px solid #dc7fac;
+  border-radius: 999px;
+  padding: 0.42rem 0.74rem;
+  font: 700 0.76rem/1 "Varela Round", "Segoe UI", sans-serif;
+  box-shadow: 0 6px 14px rgba(90, 39, 68, 0.2);
+  white-space: nowrap;
+}
+
+.disclaimer-overlay {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  width: min(380px, 84vw);
+  margin: 0;
+  padding: 0.75rem 0.84rem;
+  border-radius: 14px;
+  border: 1px solid #dc7fac;
+  background: #ffe6f1;
+  color: #402231;
+  font-size: 0.84rem;
+  line-height: 1.42;
+  box-shadow: 0 16px 30px rgba(56, 41, 50, 0.24);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-3px);
+  transition: opacity 160ms ease, transform 160ms ease, visibility 160ms ease;
+}
+
+.disclaimer-wrap:hover .disclaimer-overlay,
+.disclaimer-wrap:focus-within .disclaimer-overlay {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 .brand {
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -460,9 +506,23 @@ main {
 .budget-category-menu {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.5rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid color-mix(in srgb, var(--line) 72%, white);
+}
+
+.budget-wip-bubble {
+  margin: 0.75rem auto 0;
+  width: fit-content;
+  max-width: 100%;
+  border: 1px solid #dc7fac;
+  border-radius: 999px;
+  background: #ffe6f1;
+  color: #5a2440;
+  font: 700 0.82rem/1.25 "Varela Round", "Segoe UI", sans-serif;
+  text-align: center;
+  padding: 0.44rem 0.78rem;
 }
 
 .budget-category-button {
@@ -637,6 +697,29 @@ main {
   margin: 2rem auto 3rem;
 }
 
+.detail-menu {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: color-mix(in srgb, var(--paper) 94%, white);
+  border-bottom: 1px solid color-mix(in srgb, var(--line) 62%, white);
+  padding: 0.55rem 0;
+}
+
+.detail-menu-inner {
+  width: min(1080px, 94vw);
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.detail-menu .view-tab {
+  font-size: 0.84rem;
+  padding: 0.4rem 0.8rem;
+}
+
 .detail-header {
   margin-bottom: 2rem;
 }
@@ -710,6 +793,23 @@ main {
   box-shadow: var(--shadow);
 }
 
+.detail-image-link {
+  display: block;
+  width: 100%;
+}
+
+.detail-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
 @keyframes ticker-scroll-loop {
   from {
     transform: translateX(0);
@@ -751,6 +851,27 @@ main {
 }
 
 @media (max-width: 850px) {
+  .disclaimer-wrap {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 100%;
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .disclaimer-overlay {
+    right: auto;
+    left: 50%;
+    transform: translate(-50%, -3px);
+  }
+
+  .disclaimer-wrap:hover .disclaimer-overlay,
+  .disclaimer-wrap:focus-within .disclaimer-overlay {
+    transform: translate(-50%, 0);
+  }
+
   .meetings-layout {
     grid-template-columns: 1fr;
   }
