@@ -2,14 +2,6 @@
 // Each object below renders one card on the homepage.
 const posts = [
   {
-    id: 15,
-    title: "Brookline Assessor's Database",
-    category: "journal",
-    date: "February 25, 2026",
-    excerpt: "This database has detailed property tax data for every property in Brookline.",
-    resourcePage: "pages/brookline_assessors_database_20260225.html"
-  },
-  {
     id: 13,
     title: "DLS data for Property Tax Statistics",
     category: "journal",
@@ -26,6 +18,14 @@ const posts = [
     excerpt:
       "Town Administrator will hold a Virtual Town Budget meeting to explain the Budget Process on February 26 at 1pm (90 minutes).",
     resourcePage: "pages/town_administrator_budget_101_20260225.html"
+  },
+  {
+    id: 15,
+    title: "Brookline Assessor's Database",
+    category: "journal",
+    date: "February 25, 2026",
+    excerpt: "This database has detailed property tax data for every property in Brookline.",
+    resourcePage: "pages/brookline_assessors_database_20260225.html"
   },
   {
     id: 10,
@@ -1058,12 +1058,11 @@ function createMeetingRow(meeting) {
   const links = document.createElement("div");
   links.className = "meeting-links";
 
-  const mediaLink = createMeetingLink(meeting.mediaUrl, "Media");
-  const agendaLink = createMeetingLink(meeting.agendaUrl, "Agenda");
+  const detailsLink = createMeetingLink(meeting.meetingUrl || meeting.sourceUrl, "Meeting Details");
   const packetLink = createMeetingLink(meeting.packetUrl, "Packet");
-  const detailsLink = createMeetingLink(meeting.meetingUrl, "Details", { secondary: true });
+  const mediaLink = createMeetingLink(meeting.mediaUrl, "Media", { secondary: true });
 
-  [mediaLink, agendaLink, packetLink, detailsLink].forEach((link) => {
+  [detailsLink, packetLink, mediaLink].forEach((link) => {
     if (link) {
       links.append(link);
     }
@@ -1126,7 +1125,7 @@ function renderMeetings() {
     const emptyState = document.createElement("p");
     emptyState.className = "empty-state";
     emptyState.innerHTML =
-      "No local meetings snapshot yet. Run <code>node tools/scrape_civic_range.js</code> to refresh <code>civic/meetings_data.js</code>.";
+      "No local meetings snapshot yet. Run <code>node tools/sync_meetings.js</code> to refresh <code>data/meetings_data.js</code>.";
     viewContent.append(emptyState);
     return;
   }
