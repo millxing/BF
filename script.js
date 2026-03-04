@@ -2,6 +2,24 @@
 // Each object below renders one card on the homepage.
 const posts = [
   {
+    id: 17,
+    title: "E&RSC Meeting Recap (March 3, 2026): Capacity to Pay and Non-Resident Special Education",
+    category: "journal",
+    date: "March 3, 2026",
+    excerpt:
+      "Recap of the March 3 E&RSC meeting topics on override size, taxpayer burden, and non-resident special education costs.",
+    resourcePage: "pages/ersc_meeting_capacity_to_pay_20260303.html"
+  },
+  {
+    id: 16,
+    title: "From Priorities to Proposal: Understanding How the PSB Budget is Built",
+    category: "journal",
+    date: "March 1, 2026",
+    excerpt:
+      "Superintendent Bella Wong explains how PSB builds its annual budget and navigates major trade-offs.",
+    resourcePage: "pages/from_priorities_to_proposal_psb_budget_20260301.html"
+  },
+  {
     id: 13,
     title: "DLS data for Property Tax Statistics",
     category: "journal",
@@ -16,7 +34,7 @@ const posts = [
     category: "journal",
     date: "February 25, 2026",
     excerpt:
-      "Town Administrator will hold a Virtual Town Budget meeting to explain the Budget Process on February 26 at 1pm (90 minutes).",
+      "Town Administrator's virtual Budget 101 was held on February 26, 2026, and the recording is now available.",
     resourcePage: "pages/town_administrator_budget_101_20260225.html"
   },
   {
@@ -147,6 +165,14 @@ const resourceLinks = [
   {
     label: "Brookline Fiscal Advisory Committee",
     url: "https://www.brooklinema.gov/3875/Arc-Moderators-Committee---Brookline-Fis"
+  },
+  {
+    label: "Brookline CivicClerk Portal",
+    url: "https://brooklinema.portal.civicclerk.com/"
+  },
+  {
+    label: "Brookline News",
+    url: "https://brookline.news/"
   },
   {
     label: "DLS data for Property Tax Statistics",
