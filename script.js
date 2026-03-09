@@ -171,6 +171,10 @@ const resourceLinks = [
     url: "https://brooklinema.portal.civicclerk.com/"
   },
   {
+    label: "Brookline.Info",
+    url: "https://brookline.info/"
+  },
+  {
     label: "Brookline News",
     url: "https://brookline.news/"
   },
