@@ -2,6 +2,15 @@
 // Each object below renders one card on the homepage.
 const posts = [
   {
+    id: 18,
+    title: "PSB Staffing Numbers: Comparing Budget and DESE Reports",
+    category: "journal",
+    date: "March 9, 2026",
+    excerpt:
+      "A side-by-side look at Brookline enrollment, educator counts, district personnel, and special education staffing.",
+    resourcePage: "pages/psb_staffing_numbers_20260309.html"
+  },
+  {
     id: 17,
     title: "E&RSC Meeting Recap (March 3, 2026): Capacity to Pay and Non-Resident Special Education",
     category: "journal",
