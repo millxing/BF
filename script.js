@@ -2,6 +2,26 @@
 // Each object below renders one card on the homepage.
 const posts = [
   {
+    id: 20,
+    title: "Brookline.News: Committee Recommends Tiered Override as Select Board Weighs Final Ballot Question Decision",
+    category: "journal",
+    date: "March 17, 2026",
+    excerpt:
+      "Brookline.News reports on the committee's recommendation for a tiered override structure as the Select Board weighs its final ballot decision.",
+    articleUrl:
+      "https://brookline.news/committee-recommends-tiered-override-as-select-board-weighs-final-ballot-question-decision/",
+    articleLabel: "Read the Brookline.News article"
+  },
+  {
+    id: 19,
+    title: "Final Report from the Expenditures & Revenues Study Committee (E&RSC)",
+    category: "journal",
+    date: "March 13, 2026",
+    excerpt:
+      "Brookline's E&RSC released its final report on the town's financial condition and recommendations related to a possible override.",
+    resourcePage: "pages/ersc_final_report_20260313.html"
+  },
+  {
     id: 18,
     title: "PSB Staffing Numbers: Comparing Budget and DESE Reports",
     category: "journal",
@@ -1005,6 +1025,7 @@ function renderJournal() {
 
     const body = fragment.querySelector(".post-body");
     const button = fragment.querySelector(".read-more");
+    const excerpt = fragment.querySelector(".post-excerpt");
 
     if (post.resourcePage) {
       card.classList.add("clickable-card");
@@ -1024,6 +1045,17 @@ function renderJournal() {
           window.location.href = post.resourcePage;
         }
       });
+    } else if (post.articleUrl) {
+      body.remove();
+      button.remove();
+
+      const articleLink = document.createElement("a");
+      articleLink.className = "post-link";
+      articleLink.href = post.articleUrl;
+      articleLink.target = "_blank";
+      articleLink.rel = "noopener noreferrer";
+      articleLink.textContent = post.articleLabel || "Article";
+      excerpt.insertAdjacentElement("afterend", articleLink);
     } else {
       body.textContent = post.body;
 

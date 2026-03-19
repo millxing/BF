@@ -657,18 +657,41 @@ main {
   transform: translateY(-2px);
 }
 
-.read-more {
+.read-more,
+.post-link {
   margin-top: 0.95rem;
-  border: none;
-  border-bottom: 1px solid transparent;
   padding: 0;
-  background: none;
   color: var(--accent);
   font: 600 0.92rem "Varela Round", "Segoe UI", sans-serif;
-  cursor: pointer;
+  display: inline-block;
 }
 
-.read-more:hover {
+.read-more {
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+
+.post-link {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.18em;
+}
+
+.post-link:hover {
+  color: color-mix(in srgb, var(--accent) 82%, black);
+}
+
+.post-link:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent) 45%, white);
+  outline-offset: 3px;
+  border-radius: 0.2rem;
+}
+
+.read-more:hover,
+.read-more:focus-visible {
   border-color: currentColor;
 }
 
