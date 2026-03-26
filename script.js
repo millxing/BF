@@ -2,6 +2,35 @@
 // Each object below renders one card on the homepage.
 const posts = [
   {
+    id: 23,
+    title: "Assessor's Database Update: Spreadsheet and Dashboard",
+    category: "journal",
+    date: "March 26, 2026",
+    excerpt:
+      "Two new tools make Brookline assessment and property tax data easier to explore: a property-level spreadsheet and a town-wide dashboard.",
+    resourcePage: "pages/assessors_database_update_20260326.html"
+  },
+  {
+    id: 22,
+    title: "Warrant Article 22: Resolution Supporting Modernization of Proposition 2 1/2",
+    category: "journal",
+    date: "March 26, 2026",
+    excerpt:
+      "A look at the non-binding resolution asking Brookline Town Meeting to support state-level reform of Proposition 2 1/2 without endorsing a specific fix.",
+    resourcePage: "pages/warrant_article_22_prop_2_1_2_20260326.html"
+  },
+  {
+    id: 21,
+    title: "Brookline.News: Brookline voters will decide on $23.25 million override in May",
+    category: "journal",
+    date: "March 25, 2026",
+    excerpt:
+      "Brookline.News reports that the Select Board chose a single all-or-nothing $23.25 million override question for the May ballot instead of a tiered approach.",
+    articleUrl:
+      "https://brookline.news/brookline-voters-will-decide-on-23-25-million-override-in-may/",
+    articleLabel: "Read the Brookline.News article"
+  },
+  {
     id: 20,
     title: "Brookline.News: Committee Recommends Tiered Override as Select Board Weighs Final Ballot Question Decision",
     category: "journal",
@@ -261,7 +290,7 @@ const tickerConfig = {
 };
 
 const overrideTickerMessage =
-  "The Town of Brookline will likely put a $5.31M override on the ballot for the May 5, 2026 election. The stated purpose is to stabilize the operating budget, fund contractual obligations, avoid deeper cuts in FY2028 and FY2029, and maintain expected service levels. This is a municipal operations override question only and would not include the schools. The schools may request their own override.";
+  "Override update: Brookline voters will decide in May 2026 on a single all-or-nothing $23.25 million override question after the Select Board rejected a tiered ballot approach. The proposal includes $5.31 million for Town services and $17.94 million for schools over three years. Recent posts cover the March 25 Brookline.News decision story, the March 17 tiered-ballot debate, and the March 13 E&RSC final report.";
 
 const defaultBudgetRows = [
   {

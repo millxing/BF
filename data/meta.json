@@ -12,10 +12,10 @@
   "endDateInclusive": "2027-12-31",
   "startIsoInclusive": "2026-01-01T00:00:00Z",
   "endIsoExclusive": "2028-01-01T00:00:00Z",
-  "fetchedAt": "2026-03-03T01:03:38.906Z",
-  "pagesFetched": 11,
-  "eventCount": 163,
-  "withAgendaCount": 96,
-  "withAgendaPacketCount": 66,
-  "withMediaCount": 62
+  "fetchedAt": "2026-03-26T12:48:44.323Z",
+  "pagesFetched": 13,
+  "eventCount": 185,
+  "withAgendaCount": 137,
+  "withAgendaPacketCount": 102,
+  "withMediaCount": 101
 }

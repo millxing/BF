@@ -660,7 +660,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/otOvnnC5qIWty_5w2p5d2jZNcSym8esC5Duj__AxWzQur8p77kOsHnDMedx8GWPd.eRhG9G1P6I8gauCv?startTime=1768428021000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27566,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27567,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30638,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/otOvnnC5qIWty_5w2p5d2jZNcSym8esC5Duj__AxWzQur8p77kOsHnDMedx8GWPd.eRhG9G1P6I8gauCv?startTime=1768428021000"
     ],
@@ -670,7 +670,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27567,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30638,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -692,6 +694,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=27567,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27567,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "1.14.26 Finance Minutes",
+        "publishOn": "2026-03-20T08:44:49.757Z",
+        "fileId": 30638,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30638,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30638,plainText=false)"
       }
     ]
   },
@@ -770,7 +782,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/qZjVoeJ-_qCkx1AVtFwqKhferKAvZfZGNKIjrNIx_nQUKJFUIOvTAq8f1FDusQBH.kA8gdbH5BEljCVta?startTime=1768514600000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27525,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27526,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30626,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/qZjVoeJ-_qCkx1AVtFwqKhferKAvZfZGNKIjrNIx_nQUKJFUIOvTAq8f1FDusQBH.kA8gdbH5BEljCVta?startTime=1768514600000"
     ],
@@ -780,7 +792,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27526,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30626,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -802,6 +816,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=27526,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27526,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "1.15.26 Policy Subcommittee Minutes",
+        "publishOn": "2026-03-18T15:45:25.443Z",
+        "fileId": 30626,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30626,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30626,plainText=false)"
       }
     ]
   },
@@ -1039,7 +1063,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/Rb0-A1SBupSgn-xxQp4yiR0STyP0RV92grYEkj8572KOXLFZSLUoyY7qaOxMM7Kj.G72svgHm1ji84s6L?startTime=1768953685000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27665,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27666,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30639,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/Rb0-A1SBupSgn-xxQp4yiR0STyP0RV92grYEkj8572KOXLFZSLUoyY7qaOxMM7Kj.G72svgHm1ji84s6L?startTime=1768953685000"
     ],
@@ -1049,7 +1073,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27666,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30639,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -1071,6 +1097,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=27666,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27666,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "1/20 Finance Minutes",
+        "publishOn": "2026-03-20T08:44:14.36Z",
+        "fileId": 30639,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30639,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30639,plainText=false)"
       }
     ]
   },
@@ -1503,7 +1539,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/rjEXSmH_5KaPP2oq4qEXgOrvVe4zjjpKB6rJr3Nod1PDMheS8ysbQ2kCAANJ9Dea.fObR3aqBcKI6ty5a",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27742,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27814,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30704,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/rjEXSmH_5KaPP2oq4qEXgOrvVe4zjjpKB6rJr3Nod1PDMheS8ysbQ2kCAANJ9Dea.fObR3aqBcKI6ty5a"
     ],
@@ -1513,7 +1549,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27814,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30704,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -1535,6 +1573,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=27814,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27814,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "January 26 2026 EDAB Minutes",
+        "publishOn": "2026-03-24T16:42:18.227Z",
+        "fileId": 30704,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30704,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30704,plainText=false)"
       }
     ]
   },
@@ -1927,7 +1975,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/8fs-EjHkMFWbYGnLLFh6301qIuHjdXqnprxmnn6V5IsfEe0iKpdqWcKVU1YxZDXA.qBvS6hjctJp1x8zG?startTime=1770076908000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27843,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27867,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30705,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/8fs-EjHkMFWbYGnLLFh6301qIuHjdXqnprxmnn6V5IsfEe0iKpdqWcKVU1YxZDXA.qBvS6hjctJp1x8zG?startTime=1770076908000"
     ],
@@ -1937,7 +1985,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27867,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30705,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -1959,6 +2009,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=27867,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27867,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "February 2026 EDAB Minutes",
+        "publishOn": "2026-03-24T16:43:29.1Z",
+        "fileId": 30705,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30705,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30705,plainText=false)"
       }
     ]
   },
@@ -2098,7 +2158,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/l4MEq8QMvlA18JBDszBHS2CRbPphZvOcgELUw_5CjG9dp6BSF7FEknfMcu4p3076.uAvIxkOHhXfzyz0i?startTime=1770242616000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27881,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27882,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30640,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/l4MEq8QMvlA18JBDszBHS2CRbPphZvOcgELUw_5CjG9dp6BSF7FEknfMcu4p3076.uAvIxkOHhXfzyz0i?startTime=1770242616000"
     ],
@@ -2108,7 +2168,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27882,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30640,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -2130,6 +2192,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=27882,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=27882,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2/4 Finance Minutes",
+        "publishOn": "2026-03-20T08:43:51.487Z",
+        "fileId": 30640,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30640,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30640,plainText=false)"
       }
     ]
   },
@@ -3324,7 +3396,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/iU8G5rTa-7pvHJV6jxqR6mqS7qCqGJX-TaCe1vRiJvOKG6Cry4AAELHlj8Vnel84.qEoMY3-QW7-PuBYw",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29184,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29203,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30344,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/iU8G5rTa-7pvHJV6jxqR6mqS7qCqGJX-TaCe1vRiJvOKG6Cry4AAELHlj8Vnel84.qEoMY3-QW7-PuBYw"
     ],
@@ -3334,7 +3406,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29203,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30344,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -3356,6 +3430,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=29203,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29203,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "E&RSC Town Subcommittee Minutes 02.24.26",
+        "publishOn": "2026-03-03T09:11:39.287Z",
+        "fileId": 30344,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30344,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30344,plainText=false)"
       }
     ]
   },
@@ -3373,7 +3457,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/GoKu8u-rrdhKqFjYllJtZfgCgTBKKRHy3HoEhVd77_gz2OjAvO6n-9aKikD8Qr3S.jpOhJagTnUJg3vn3?startTime=1771970450000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28170,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28171,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30627,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/GoKu8u-rrdhKqFjYllJtZfgCgTBKKRHy3HoEhVd77_gz2OjAvO6n-9aKikD8Qr3S.jpOhJagTnUJg3vn3?startTime=1771970450000"
     ],
@@ -3383,7 +3467,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28171,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30627,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -3405,6 +3491,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=28171,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28171,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2.24.26 Policy Subcommittee Minutes",
+        "publishOn": "2026-03-18T15:48:13.15Z",
+        "fileId": 30627,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30627,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30627,plainText=false)"
       }
     ]
   },
@@ -3422,7 +3518,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/KpR0A1TlUGK0vVJxP8OrZmrZzUugnp-N0fBJpgfDpFWVlOHUH9v1LELBWXXzLxp4.i8hqcFYLxEH7mAhL",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29227,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30238,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30528,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/KpR0A1TlUGK0vVJxP8OrZmrZzUugnp-N0fBJpgfDpFWVlOHUH9v1LELBWXXzLxp4.i8hqcFYLxEH7mAhL"
     ],
@@ -3432,7 +3528,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30238,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30528,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -3454,6 +3552,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30238,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30238,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2.24.26 approved",
+        "publishOn": "2026-03-11T11:18:22.827Z",
+        "fileId": 30528,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30528,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30528,plainText=false)"
       }
     ]
   },
@@ -3471,7 +3579,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/2Coj5hfE6Zvs6scsCNmzefAtsdI_dinJuOOcmCyaY1blfIMjRQFNQATUdqhqduBT.hWELuRJ8r8ZdBOBu",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28173,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29208,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30400,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/2Coj5hfE6Zvs6scsCNmzefAtsdI_dinJuOOcmCyaY1blfIMjRQFNQATUdqhqduBT.hWELuRJ8r8ZdBOBu"
     ],
@@ -3481,7 +3589,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29208,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30400,plainText=false)"
+    ],
     "otherUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30243,plainText=false)"
     ],
@@ -3505,6 +3615,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=29208,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29208,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "Human Services Subcommittee Hearing FY27 Veterans' Services Budget",
+        "publishOn": "2026-03-05T11:30:20.743Z",
+        "fileId": 30400,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30400,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30400,plainText=false)"
       },
       {
         "type": "Other",
@@ -3637,13 +3757,15 @@
     "description": null,
     "location": "Remote Via Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16049",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/qMFbGAtFY60KKPDCnEhlpL8sOefhT-AfXn_BVRDdDj7GwWn10UgTw9omOmNC3_cV.UmDjy-o-UYJlgpwO",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29200,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
-    "mediaUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/qMFbGAtFY60KKPDCnEhlpL8sOefhT-AfXn_BVRDdDj7GwWn10UgTw9omOmNC3_cV.UmDjy-o-UYJlgpwO"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29200,plainText=false)"
     ],
@@ -3677,7 +3799,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/YIg4gmNZlfxAdt44_qmzSudkGdF0_nU-8oHWlyNbn5OaUJ3CVIASrp-KGfNsnGkn.E6tEuZXgPlYtl6lu?startTime=1772057313000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28165,plainText=false)",
     "agendaPacketUrl": null,
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30502,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/YIg4gmNZlfxAdt44_qmzSudkGdF0_nU-8oHWlyNbn5OaUJ3CVIASrp-KGfNsnGkn.E6tEuZXgPlYtl6lu?startTime=1772057313000"
     ],
@@ -3685,7 +3807,9 @@
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28165,plainText=false)"
     ],
     "agendaPacketUrls": [],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30502,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -3697,6 +3821,16 @@
         "fileType": 1,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=28165,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28165,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2/25/26 Negotiations Minutes (open session)",
+        "publishOn": "2026-03-10T16:24:17.747Z",
+        "fileId": 30502,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30502,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30502,plainText=false)"
       }
     ]
   },
@@ -3709,18 +3843,22 @@
     "description": null,
     "location": "Remote via Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/15039",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/QOxnu1UckzlnTYLYpZtBREA7H1HJ1M0UQbWR6Yz4lcTz-57bEZZtS7aODaxxia38.iLOpyUdGhibyIXEP",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28175,plainText=false)",
     "agendaPacketUrl": null,
-    "minutesUrl": null,
-    "mediaUrls": [],
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30388,plainText=false)",
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/QOxnu1UckzlnTYLYpZtBREA7H1HJ1M0UQbWR6Yz4lcTz-57bEZZtS7aODaxxia38.iLOpyUdGhibyIXEP"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28175,plainText=false)"
     ],
     "agendaPacketUrls": [],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30388,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -3732,6 +3870,16 @@
         "fileType": 1,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=28175,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28175,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2026 02 26 Subcommittee Hearing Minutes FY27 HR & Benefits Budget",
+        "publishOn": "2026-03-05T08:28:57.61Z",
+        "fileId": 30388,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30388,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30388,plainText=false)"
       }
     ]
   },
@@ -3749,7 +3897,7 @@
     "mediaUrl": "https://www.youtube.com/watch?v=QLRDO-qMskk",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29197,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29199,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30637,plainText=false)",
     "mediaUrls": [
       "https://www.youtube.com/watch?v=QLRDO-qMskk"
     ],
@@ -3759,7 +3907,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29199,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30637,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -3781,6 +3931,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=29199,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29199,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2/26/26 School Committee Meeting Minutes",
+        "publishOn": "2026-03-19T21:36:39.343Z",
+        "fileId": 30637,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30637,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30637,plainText=false)"
       }
     ]
   },
@@ -3840,13 +4000,15 @@
     "description": null,
     "location": "Remote via Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/15040",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/9A-7JgNz6hjd7Rry_uQYNRyTSGOc3yKneoAdW-heFA6BPCPuc8kaafomsgImmHkl._Z2iECrMip4Rvayn?startTime=1772481703000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28176,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
-    "mediaUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/9A-7JgNz6hjd7Rry_uQYNRyTSGOc3yKneoAdW-heFA6BPCPuc8kaafomsgImmHkl._Z2iECrMip4Rvayn?startTime=1772481703000"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28176,plainText=false)"
     ],
@@ -3880,7 +4042,7 @@
     "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/DxNDtnPAeOF-8vpMbHzSa2ZyhsGlBEyiwJEytetP8o5TQj1W4iNfohQRzEV7kUj-.1Wp7uPvCR5nscOEX?startTime=1772485249000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30269,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30270,plainText=false)",
-    "minutesUrl": null,
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30720,plainText=false)",
     "mediaUrls": [
       "https://brooklinema.zoomgov.com/rec/share/DxNDtnPAeOF-8vpMbHzSa2ZyhsGlBEyiwJEytetP8o5TQj1W4iNfohQRzEV7kUj-.1Wp7uPvCR5nscOEX?startTime=1772485249000"
     ],
@@ -3890,7 +4052,9 @@
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30270,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30720,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -3912,6 +4076,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30270,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30270,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "3.2.26 Curriculum Minutes",
+        "publishOn": "2026-03-25T16:32:55.263Z",
+        "fileId": 30720,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30720,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30720,plainText=false)"
       }
     ]
   },
@@ -3924,13 +4098,15 @@
     "description": null,
     "location": "Virtually via Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16070",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/lWOXvPkFop76VkH9Q-WB0DNat5U_jT87cyAPcgGt6TDuWMoT9np3Fo0k6s3cb6w.7UeGmVvEiQJTeki7",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30324,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30325,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/lWOXvPkFop76VkH9Q-WB0DNat5U_jT87cyAPcgGt6TDuWMoT9np3Fo0k6s3cb6w.7UeGmVvEiQJTeki7"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30324,plainText=false)"
     ],
@@ -3971,13 +4147,15 @@
     "description": "Remote via Zoom",
     "location": "Remote on Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16064",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/Gt5ILIY9PMN9UQm-WKDxuEQLRXIkU-6kzcA2yRn_e695Vjg28y0IDvK-3GGv6fpK.cAXxTR035Cfr4Q3v",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30252,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
-    "mediaUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/Gt5ILIY9PMN9UQm-WKDxuEQLRXIkU-6kzcA2yRn_e695Vjg28y0IDvK-3GGv6fpK.cAXxTR035Cfr4Q3v"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30252,plainText=false)"
     ],
@@ -4006,18 +4184,20 @@
     "description": null,
     "location": "Virtually via Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16073",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/BUaViPlLx1LFkl1if2xHVEKB_o3gbSROkFJZ2PVPk05VnQGkAnyDWp2vjgWLAjHr.mVGY7m9ODDLjbbe-",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30335,plainText=false)",
-    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30336,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30347,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/BUaViPlLx1LFkl1if2xHVEKB_o3gbSROkFJZ2PVPk05VnQGkAnyDWp2vjgWLAjHr.mVGY7m9ODDLjbbe-"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30335,plainText=false)"
     ],
     "agendaPacketUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30336,plainText=false)"
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30347,plainText=false)"
     ],
     "minutesUrls": [],
     "otherUrls": [],
@@ -4035,12 +4215,12 @@
       {
         "type": "Agenda Packet",
         "kind": "agendaPacket",
-        "name": "E&RSC Town Subcommittee Agenda Packet 3.3.26",
-        "publishOn": "2026-03-02T16:09:45.667Z",
-        "fileId": 30336,
+        "name": "E&RSC Town Subcommittee Agenda Packet 3.3.26 v4",
+        "publishOn": "2026-03-03T10:09:41.24Z",
+        "fileId": 30347,
         "fileType": 2,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30336,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30336,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30347,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30347,plainText=false)"
       }
     ]
   },
@@ -4053,18 +4233,20 @@
     "description": null,
     "location": "Town Hall, 333 Washington Street, Room 103 and Zoom, Brookline, Massachusetts, 02445",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16083",
-    "mediaUrl": null,
-    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30304,plainText=false)",
-    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30305,plainText=false)",
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/KBUhKuQaszIdn5pmzsIRHAxj3ROv-jY5_gBNcIEy20P5MJgeVelHWNfskFvTlniC.fLszZ85CMnxFqJPq",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30351,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30352,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/KBUhKuQaszIdn5pmzsIRHAxj3ROv-jY5_gBNcIEy20P5MJgeVelHWNfskFvTlniC.fLszZ85CMnxFqJPq"
+    ],
     "agendaUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30304,plainText=false)"
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30351,plainText=false)"
     ],
     "agendaPacketUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30305,plainText=false)"
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30352,plainText=false)"
     ],
     "minutesUrls": [],
     "otherUrls": [],
@@ -4072,22 +4254,22 @@
       {
         "type": "Agenda",
         "kind": "agenda",
-        "name": "E&RSC Agenda 3.3.26 v2",
-        "publishOn": "2026-03-02T08:54:24.607Z",
-        "fileId": 30304,
+        "name": "E&RSC Agenda 3.3.26 v4",
+        "publishOn": "2026-03-03T11:26:37.557Z",
+        "fileId": 30351,
         "fileType": 1,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30304,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30304,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30351,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30351,plainText=false)"
       },
       {
         "type": "Agenda Packet",
         "kind": "agendaPacket",
-        "name": "E&RSC Agenda Packet 3.3.26",
-        "publishOn": "2026-03-02T08:54:24.607Z",
-        "fileId": 30305,
+        "name": "E&RSC Agenda Packet 3.3.26 v3",
+        "publishOn": "2026-03-03T11:26:37.557Z",
+        "fileId": 30352,
         "fileType": 2,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30305,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30305,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30352,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30352,plainText=false)"
       }
     ]
   },
@@ -4100,17 +4282,21 @@
     "description": "Remote Via Zoom",
     "location": null,
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16087",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/qMUhw8G5b06m6GPS4u7yf8404eRctKW08vsS87zo7fJNLyMnBv_-uw0tCkRwKM5x.UHBIpYGeigAbJXyi",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30287,plainText=false)",
-    "agendaPacketUrl": null,
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30369,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/qMUhw8G5b06m6GPS4u7yf8404eRctKW08vsS87zo7fJNLyMnBv_-uw0tCkRwKM5x.UHBIpYGeigAbJXyi"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30287,plainText=false)"
     ],
-    "agendaPacketUrls": [],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30369,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
     "publishedFiles": [
@@ -4123,6 +4309,16 @@
         "fileType": 1,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30287,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30287,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Agenda Packet",
+        "publishOn": "2026-03-03T18:56:50.05Z",
+        "fileId": 30369,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30369,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30369,plainText=false)"
       }
     ]
   },
@@ -4135,18 +4331,24 @@
     "description": "Remote via Zoom",
     "location": null,
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16056",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/L0rsVX68pjbaOEXbrXJSshMwf_PyzCj22tzea4BIfkOl35weULwnzkk9kkRmt9X4.Dj9vIK2UR6W9suyY?startTime=1772581553000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30259,plainText=false)",
-    "agendaPacketUrl": null,
-    "minutesUrl": null,
-    "mediaUrls": [],
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30363,plainText=false)",
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30424,plainText=false)",
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/L0rsVX68pjbaOEXbrXJSshMwf_PyzCj22tzea4BIfkOl35weULwnzkk9kkRmt9X4.Dj9vIK2UR6W9suyY?startTime=1772581553000"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30259,plainText=false)"
     ],
-    "agendaPacketUrls": [],
-    "minutesUrls": [],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30363,plainText=false)"
+    ],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30424,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -4158,6 +4360,26 @@
         "fileType": 1,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30259,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30259,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Agenda Packet Updated",
+        "publishOn": "2026-03-03T15:12:00.513Z",
+        "fileId": 30363,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30363,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30363,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2026 03 03 Advisory Committee Meeting Minutes FINAL",
+        "publishOn": "2026-03-05T22:55:55.67Z",
+        "fileId": 30424,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30424,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30424,plainText=false)"
       }
     ]
   },
@@ -4170,29 +4392,43 @@
     "description": null,
     "location": "Town Hall, 333 Washington Street, Room 103 and Zoom, Brookline, Massachusetts, 02445",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16074",
-    "mediaUrl": null,
-    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30286,plainText=false)",
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/R6kx4Y2iEnZbgDgOPXofhfF6em-cK-TY9CtrB6Xa_Q86BkvHeBg2jwEwK-4QPYCo.-iwT7fi7C92LJH5Q",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30354,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30378,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30286,plainText=false)"
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/R6kx4Y2iEnZbgDgOPXofhfF6em-cK-TY9CtrB6Xa_Q86BkvHeBg2jwEwK-4QPYCo.-iwT7fi7C92LJH5Q"
     ],
-    "agendaPacketUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30354,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30378,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
     "publishedFiles": [
       {
         "type": "Agenda",
         "kind": "agenda",
-        "name": "E&RSC Agenda 3.4..26",
-        "publishOn": "2026-02-27T11:34:01.34Z",
-        "fileId": 30286,
+        "name": "E&RSC Agenda 3.4.26 v2",
+        "publishOn": "2026-03-03T13:27:14.73Z",
+        "fileId": 30354,
         "fileType": 1,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30286,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30286,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30354,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30354,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "E&RSC Agenda Packet 3.4.26 v4",
+        "publishOn": "2026-03-04T11:31:05.257Z",
+        "fileId": 30378,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30378,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30378,plainText=false)"
       }
     ]
   },
@@ -4205,15 +4441,17 @@
     "description": "Remote Via Zoom",
     "location": "Remote via Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/15041",
-    "mediaUrl": null,
-    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28177,plainText=false)",
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/TJuW0yNjKKCG5wcXJlxYIbYRNhFbtZZ4Pjj_qOWti0xOjrgbCDS5g-lJiyVctJI1.ZeM3mfdbwu2o8iCD?startTime=1772653249000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30346,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
-    "mediaUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/TJuW0yNjKKCG5wcXJlxYIbYRNhFbtZZ4Pjj_qOWti0xOjrgbCDS5g-lJiyVctJI1.ZeM3mfdbwu2o8iCD?startTime=1772653249000"
+    ],
     "agendaUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28177,plainText=false)"
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30346,plainText=false)"
     ],
     "agendaPacketUrls": [],
     "minutesUrls": [],
@@ -4222,12 +4460,12 @@
       {
         "type": "Agenda",
         "kind": "agenda",
-        "name": "2026 03 04 Admin & Finance Subcommittee Agenda",
-        "publishOn": "2026-02-19T10:12:32.917Z",
-        "fileId": 28177,
+        "name": "2026 03 04 Admin & Finance Subcommittee Agenda Amended",
+        "publishOn": "2026-03-03T10:05:38.743Z",
+        "fileId": 30346,
         "fileType": 1,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=28177,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=28177,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30346,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30346,plainText=false)"
       }
     ]
   },
@@ -4240,18 +4478,22 @@
     "description": "Remote via Zoom",
     "location": "Remote Via Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16050",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/Y9F3pXUGK7LZ3LM8giRbbu56VA_Gz-w9iG1XzUPIb0m0-wOwiZ9SfPr_XGoYBF8s.goBt80PSwwlPdo5P",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29217,plainText=false)",
     "agendaPacketUrl": null,
-    "minutesUrl": null,
-    "mediaUrls": [],
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30437,plainText=false)",
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/Y9F3pXUGK7LZ3LM8giRbbu56VA_Gz-w9iG1XzUPIb0m0-wOwiZ9SfPr_XGoYBF8s.goBt80PSwwlPdo5P"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29217,plainText=false)"
     ],
     "agendaPacketUrls": [],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30437,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -4263,6 +4505,16 @@
         "fileType": 1,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=29217,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=29217,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2026 03 04 Capital Subcommittee Meeting Minutes",
+        "publishOn": "2026-03-08T18:20:11.68Z",
+        "fileId": 30437,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30437,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30437,plainText=false)"
       }
     ]
   },
@@ -4275,20 +4527,24 @@
     "description": null,
     "location": "Brookline Town Hall, 5th Floor, and Remote via BIG Live Stream and Broadcast",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14115",
-    "mediaUrl": null,
+    "mediaUrl": "https://www.youtube.com/watch?v=L5AW1g7w77k&t=2448s",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30339,plainText=false)",
     "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30340,plainText=false)",
-    "minutesUrl": null,
-    "mediaUrls": [],
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30662,plainText=false)",
+    "mediaUrls": [
+      "https://www.youtube.com/watch?v=L5AW1g7w77k&t=2448s"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30339,plainText=false)"
     ],
     "agendaPacketUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30340,plainText=false)"
     ],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30662,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -4310,6 +4566,16 @@
         "fileType": 2,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30340,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30340,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "3.4.26 SC Meeting Minutes",
+        "publishOn": "2026-03-23T09:29:32.93Z",
+        "fileId": 30662,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30662,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30662,plainText=false)"
       }
     ]
   },
@@ -4319,18 +4585,18 @@
     "categoryId": 144,
     "categoryName": "Expenditures & Revenues Study Committee",
     "title": "E&RSC Town Subcommittee",
-    "description": null,
+    "description": "CANCELED",
     "location": "Virtually via Zoom",
     "hasAgenda": true,
     "hasMedia": false,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16072",
     "mediaUrl": null,
-    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30268,plainText=false)",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30381,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
     "mediaUrls": [],
     "agendaUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30268,plainText=false)"
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30381,plainText=false)"
     ],
     "agendaPacketUrls": [],
     "minutesUrls": [],
@@ -4339,12 +4605,12 @@
       {
         "type": "Agenda",
         "kind": "agenda",
-        "name": "E&RSC Town Subcommittee Agenda 3/5/2026",
-        "publishOn": "2026-02-26T08:43:57.573Z",
-        "fileId": 30268,
+        "name": "Agenda2 canceled",
+        "publishOn": "2026-03-04T14:15:33.257Z",
+        "fileId": 30381,
         "fileType": 1,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30268,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30268,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30381,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30381,plainText=false)"
       }
     ]
   },
@@ -4356,19 +4622,58 @@
     "title": "Advisory Committee Meeting",
     "description": "Remote Via Zoom",
     "location": null,
-    "hasAgenda": false,
-    "hasMedia": false,
+    "hasAgenda": true,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16057",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
-    "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
-    "minutesUrls": [],
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/0TpDWkGa1ogeJ4Bd_Z_hIMrZnj67ArsKuUd6Vm5s5_4ypIcC_5eN1IPPwA_2z0B-.iAREFYHWpatjJg4e",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30350,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30387,plainText=false)",
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30455,plainText=false)",
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/0TpDWkGa1ogeJ4Bd_Z_hIMrZnj67ArsKuUd6Vm5s5_4ypIcC_5eN1IPPwA_2z0B-.iAREFYHWpatjJg4e"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30350,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30387,plainText=false)"
+    ],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30455,plainText=false)"
+    ],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 05 Advisory Committee Meeting Agenda",
+        "publishOn": "2026-03-03T10:58:07.277Z",
+        "fileId": 30350,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30350,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30350,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "2026 03 05 Advisory Committee Meeting Agenda Packet",
+        "publishOn": "2026-03-05T08:27:13.107Z",
+        "fileId": 30387,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30387,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30387,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2026 03 05 Advisory Committee Meeting Minutes",
+        "publishOn": "2026-03-09T11:20:13.89Z",
+        "fileId": 30455,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30455,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30455,plainText=false)"
+      }
+    ]
   },
   {
     "id": 16075,
@@ -4376,18 +4681,18 @@
     "categoryId": 144,
     "categoryName": "Expenditures & Revenues Study Committee",
     "title": "E&RSC \"Future\" Subcommittee",
-    "description": null,
+    "description": "CANCELED",
     "location": "Virtually via Zoom",
     "hasAgenda": true,
     "hasMedia": false,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16075",
     "mediaUrl": null,
-    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30331,plainText=false)",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30425,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
     "mediaUrls": [],
     "agendaUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30331,plainText=false)"
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30425,plainText=false)"
     ],
     "agendaPacketUrls": [],
     "minutesUrls": [],
@@ -4396,12 +4701,59 @@
       {
         "type": "Agenda",
         "kind": "agenda",
-        "name": "E&RSC \"Future\" Subcommittee Agenda 3.6.26",
-        "publishOn": "2026-03-02T14:58:25.74Z",
-        "fileId": 30331,
+        "name": "Agenda v2",
+        "publishOn": "2026-03-06T08:22:37.963Z",
+        "fileId": 30425,
         "fileType": 1,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30331,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30331,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30425,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30425,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16105,
+    "dateTime": "2026-03-06T11:30:00Z",
+    "categoryId": 26,
+    "categoryName": "Select Board",
+    "title": "Select Board Meeting",
+    "description": null,
+    "location": null,
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16105",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30375,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30427,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30375,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30427,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "Agenda V2 amended",
+        "publishOn": "2026-03-04T08:38:01.267Z",
+        "fileId": 30375,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30375,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30375,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Packet V3",
+        "publishOn": "2026-03-06T08:34:05.627Z",
+        "fileId": 30427,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30427,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30427,plainText=false)"
       }
     ]
   },
@@ -4414,29 +4766,92 @@
     "description": null,
     "location": "Town Hall, 333 Washington Street, Room 103 and Zoom, Brookline, Massachusetts, 02445",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16092",
-    "mediaUrl": null,
-    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30306,plainText=false)",
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/8VnIKx0IZUjM1bqjELH7RP2wq1tGoM4LweWwpUL6Wil3yPxPzoRcSqEFo7K0NMHX.rBstw-p8YuREcemn",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30446,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30447,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30306,plainText=false)"
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/8VnIKx0IZUjM1bqjELH7RP2wq1tGoM4LweWwpUL6Wil3yPxPzoRcSqEFo7K0NMHX.rBstw-p8YuREcemn"
     ],
-    "agendaPacketUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30446,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30447,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
     "publishedFiles": [
       {
         "type": "Agenda",
         "kind": "agenda",
-        "name": "E&RSC Agenda 3.9.26",
-        "publishOn": "2026-03-02T09:20:08.227Z",
-        "fileId": 30306,
+        "name": "Agenda v3",
+        "publishOn": "2026-03-09T09:26:43.877Z",
+        "fileId": 30446,
         "fileType": 1,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30306,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30306,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30446,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30446,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Packet v3",
+        "publishOn": "2026-03-09T09:26:43.877Z",
+        "fileId": 30447,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30447,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30447,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16101,
+    "dateTime": "2026-03-09T16:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Land Use, Zoning & Sustainability Subcommittee Hearing - Legal Dept FY27 Budget",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": true,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16101",
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/4t3EfaUIOLB_OwjCi7wx2LSs-P4LYUx10oZEq03_IAepRF18a3dhauZMRgkMbFuM.TKe2M4Y9vh1XadEt",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30353,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30450,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/4t3EfaUIOLB_OwjCi7wx2LSs-P4LYUx10oZEq03_IAepRF18a3dhauZMRgkMbFuM.TKe2M4Y9vh1XadEt"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30353,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30450,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 09 Land Use Subcommittee Hearing Agenda",
+        "publishOn": "2026-03-03T12:17:40.233Z",
+        "fileId": 30353,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30353,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30353,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Agenda Packet",
+        "publishOn": "2026-03-09T10:04:37.01Z",
+        "fileId": 30450,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30450,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30450,plainText=false)"
       }
     ]
   },
@@ -4449,18 +4864,22 @@
     "description": "Remote via Zoom",
     "location": null,
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16067",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/YSh0n25_arTseePlsAxasfjjI5qi-OCKvg60C-erxwkyn-crRhi_OE2kzKJwmrDZ.nulbpfd6ErKJr0QK",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30257,plainText=false)",
     "agendaPacketUrl": null,
-    "minutesUrl": null,
-    "mediaUrls": [],
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30533,plainText=false)",
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/YSh0n25_arTseePlsAxasfjjI5qi-OCKvg60C-erxwkyn-crRhi_OE2kzKJwmrDZ.nulbpfd6ErKJr0QK"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30257,plainText=false)"
     ],
     "agendaPacketUrls": [],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30533,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -4472,6 +4891,16 @@
         "fileType": 1,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30257,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30257,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2026 03 09 Capital Subcommittee Meeting Minutes",
+        "publishOn": "2026-03-11T12:05:20.367Z",
+        "fileId": 30533,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30533,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30533,plainText=false)"
       }
     ]
   },
@@ -4484,18 +4913,45 @@
     "description": null,
     "location": "Virtually via Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16076",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/92Kk-xTSe23TltFRrhIQ1f5syChAR7FydiaP1UY59JNb3vhc6XPGl5WSiabzr1Fm.BIqXhqFaoiWVWrvM",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30462,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30368,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/92Kk-xTSe23TltFRrhIQ1f5syChAR7FydiaP1UY59JNb3vhc6XPGl5WSiabzr1Fm.BIqXhqFaoiWVWrvM"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30462,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30368,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "Agenda v3",
+        "publishOn": "2026-03-09T11:44:14.4Z",
+        "fileId": 30462,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30462,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30462,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "E&RSC School Subcommittee Agenda Packet 3-9-26",
+        "publishOn": "2026-03-03T17:01:43.543Z",
+        "fileId": 30368,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30368,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30368,plainText=false)"
+      }
+    ]
   },
   {
     "id": 16065,
@@ -4506,13 +4962,15 @@
     "description": "Remote Via Zoom",
     "location": "Remote on Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16065",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/TkQ7eTuLkYSaKntA8SL3EvMy_okwk9m3SeKdoyuXI96ERqgF4Z6SALeG-h1ZcFaT.JuRVfTJjEc6VbqZQ",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30253,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
-    "mediaUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/TkQ7eTuLkYSaKntA8SL3EvMy_okwk9m3SeKdoyuXI96ERqgF4Z6SALeG-h1ZcFaT.JuRVfTJjEc6VbqZQ"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30253,plainText=false)"
     ],
@@ -4533,105 +4991,100 @@
     ]
   },
   {
-    "id": 16088,
-    "dateTime": "2026-03-09T18:00:00Z",
-    "categoryId": 28,
-    "categoryName": "Advisory Committee",
-    "title": "Human Services Subcommittee Hearing - Health & Human Services Dept FY27 Budget",
-    "description": "REMOTE VIA ZOOM",
-    "location": null,
+    "id": 16117,
+    "dateTime": "2026-03-10T09:00:00Z",
+    "categoryId": 144,
+    "categoryName": "Expenditures & Revenues Study Committee",
+    "title": "E&RSC Town Subcommittee",
+    "description": "CANCELED-QUORUM NOT PRESENT",
+    "location": "Remote via Zoom",
     "hasAgenda": true,
     "hasMedia": false,
-    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16088",
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16117",
     "mediaUrl": null,
-    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30295,plainText=false)",
-    "agendaPacketUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30415,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30416,plainText=false)",
     "minutesUrl": null,
     "mediaUrls": [],
     "agendaUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30295,plainText=false)"
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30415,plainText=false)"
     ],
-    "agendaPacketUrls": [],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30416,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
     "publishedFiles": [
       {
         "type": "Agenda",
         "kind": "agenda",
-        "name": "2026 03 09 Human Services Subcommittee Agenda",
-        "publishOn": "2026-03-01T16:53:12.62Z",
-        "fileId": 30295,
+        "name": "Agenda v2",
+        "publishOn": "2026-03-05T16:57:11.257Z",
+        "fileId": 30415,
         "fileType": 1,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30295,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30295,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30415,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30415,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Agenda Packet v2",
+        "publishOn": "2026-03-05T16:57:11.257Z",
+        "fileId": 30416,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30416,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30416,plainText=false)"
       }
     ]
-  },
-  {
-    "id": 16077,
-    "dateTime": "2026-03-10T09:00:00Z",
-    "categoryId": 144,
-    "categoryName": "Expenditures & Revenues Study Committee",
-    "title": "E&RSC Town Subcommittee",
-    "description": null,
-    "location": "Virtually via Zoom",
-    "hasAgenda": true,
-    "hasMedia": false,
-    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16077",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
-    "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
-    "minutesUrls": [],
-    "otherUrls": [],
-    "publishedFiles": []
   },
   {
     "id": 14998,
     "dateTime": "2026-03-10T16:00:00Z",
     "categoryId": 87,
     "categoryName": "School Committee",
-    "title": "School Negotiations Subcommittee Meeting (Open Session)",
+    "title": "School Negotiations Subcommittee Meeting",
     "description": null,
     "location": "Brookline Town Hall, 5th Floor,, 333 Washington Street",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14998",
-    "mediaUrl": null,
-    "agendaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/0AccqDJd1u6YjqC7k7RphS9rjMSmyrhD0A7hlUusZXplCLdF3p8CjZ5zM_j4YTzM.k4M1PEO1USSceeBv?startTime=1773176822000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30376,plainText=false)",
     "agendaPacketUrl": null,
-    "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30700,plainText=false)",
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/0AccqDJd1u6YjqC7k7RphS9rjMSmyrhD0A7hlUusZXplCLdF3p8CjZ5zM_j4YTzM.k4M1PEO1USSceeBv?startTime=1773176822000"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30376,plainText=false)"
+    ],
     "agendaPacketUrls": [],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30700,plainText=false)"
+    ],
     "otherUrls": [],
-    "publishedFiles": []
-  },
-  {
-    "id": 14131,
-    "dateTime": "2026-03-10T17:00:00Z",
-    "categoryId": 87,
-    "categoryName": "School Committee",
-    "title": "School Policy Subcommittee Meeting",
-    "description": null,
-    "location": "Remote via Zoom",
-    "hasAgenda": true,
-    "hasMedia": false,
-    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14131",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
-    "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
-    "minutesUrls": [],
-    "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "3/10/26 Negotiations Subcommittee Agenda",
+        "publishOn": "2026-03-04T10:29:13.703Z",
+        "fileId": 30376,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30376,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30376,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "3.10.26 Negotiations Minutes",
+        "publishOn": "2026-03-24T16:10:30.517Z",
+        "fileId": 30700,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30700,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30700,plainText=false)"
+      }
+    ]
   },
   {
     "id": 14824,
@@ -4645,37 +5098,40 @@
     "hasMedia": false,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14824",
     "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30474,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30547,plainText=false)",
     "minutesUrl": null,
     "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30474,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30547,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
-  },
-  {
-    "id": 16058,
-    "dateTime": "2026-03-10T19:00:00Z",
-    "categoryId": 28,
-    "categoryName": "Advisory Committee",
-    "title": "Advisory Committee Meeting",
-    "description": null,
-    "location": null,
-    "hasAgenda": false,
-    "hasMedia": false,
-    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16058",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
-    "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
-    "minutesUrls": [],
-    "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "SB 3.10.26 Agenda V3",
+        "publishOn": "2026-03-09T15:18:47.253Z",
+        "fileId": 30474,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30474,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30474,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "PACKET V7_updated 3.12.26",
+        "publishOn": "2026-03-12T10:51:35.01Z",
+        "fileId": 30547,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30547,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30547,plainText=false)"
+      }
+    ]
   },
   {
     "id": 16078,
@@ -4686,15 +5142,64 @@
     "description": null,
     "location": "Town Hall, 333 Washington Street, Room 103 and Zoom, Brookline, Massachusetts, 02445",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16078",
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/rzmOmHtqd9FZjUcU8WEqD7WoeS-RSQkU7DfyUd3HDhKzdopSTMXjgFSslZoESnd_.RWKKzh0ABfwH5hYX",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30518,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30519,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/rzmOmHtqd9FZjUcU8WEqD7WoeS-RSQkU7DfyUd3HDhKzdopSTMXjgFSslZoESnd_.RWKKzh0ABfwH5hYX"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30518,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30519,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "Agenda v5",
+        "publishOn": "2026-03-11T08:20:21.733Z",
+        "fileId": 30518,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30518,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30518,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Packet v3",
+        "publishOn": "2026-03-11T08:20:21.733Z",
+        "fileId": 30519,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30519,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30519,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16122,
+    "dateTime": "2026-03-11T15:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Administration & Finance Subcommittee Hearing on Finance Dept FY27 Budget",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16122",
     "mediaUrl": null,
-    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30326,plainText=false)",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30449,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
     "mediaUrls": [],
     "agendaUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30326,plainText=false)"
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30449,plainText=false)"
     ],
     "agendaPacketUrls": [],
     "minutesUrls": [],
@@ -4703,12 +5208,12 @@
       {
         "type": "Agenda",
         "kind": "agenda",
-        "name": "E&RSC Agenda 3.11.26",
-        "publishOn": "2026-03-02T14:44:59.757Z",
-        "fileId": 30326,
+        "name": "2026 03 11 Administration & Finance Subcommittee Agenda",
+        "publishOn": "2026-03-09T09:52:48.12Z",
+        "fileId": 30449,
         "fileType": 1,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30326,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30326,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30449,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30449,plainText=false)"
       }
     ]
   },
@@ -4721,18 +5226,22 @@
     "description": "Remote via Zoom",
     "location": null,
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16068",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/inbwJ6xBcM5LGe70KOfFQ9bA1C61RCIWGKVZuuF-vojImWpixI85txmMNC97P5Vh.EG41ufJsKTeIBQPu?startTime=1773262427000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30258,plainText=false)",
     "agendaPacketUrl": null,
-    "minutesUrl": null,
-    "mediaUrls": [],
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30631,plainText=false)",
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/inbwJ6xBcM5LGe70KOfFQ9bA1C61RCIWGKVZuuF-vojImWpixI85txmMNC97P5Vh.EG41ufJsKTeIBQPu?startTime=1773262427000"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30258,plainText=false)"
     ],
     "agendaPacketUrls": [],
-    "minutesUrls": [],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30631,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -4744,6 +5253,16 @@
         "fileType": 1,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30258,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30258,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2026 03 11 Capital Subcommittee Minutes",
+        "publishOn": "2026-03-19T08:32:38.093Z",
+        "fileId": 30631,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30631,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30631,plainText=false)"
       }
     ]
   },
@@ -4760,14 +5279,18 @@
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16089",
     "mediaUrl": null,
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30296,plainText=false)",
-    "agendaPacketUrl": null,
-    "minutesUrl": null,
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30531,plainText=false)",
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30671,plainText=false)",
     "mediaUrls": [],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30296,plainText=false)"
     ],
-    "agendaPacketUrls": [],
-    "minutesUrls": [],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30531,plainText=false)"
+    ],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30671,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -4779,6 +5302,26 @@
         "fileType": 1,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30296,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30296,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Updated Agenda Packet",
+        "publishOn": "2026-03-11T12:02:15.55Z",
+        "fileId": 30531,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30531,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30531,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2026 03 11 Human Services Subcommittee Hearing Minutes",
+        "publishOn": "2026-03-23T14:38:16.103Z",
+        "fileId": 30671,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30671,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30671,plainText=false)"
       }
     ]
   },
@@ -4791,18 +5334,45 @@
     "description": null,
     "location": "Virtually via Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16079",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/rnkefAJpWHsnHMi8E6DG6ib_-PCwTTQVRf7bI8fiYjw9HFbb02AItjJwtYJ_WNZk.9Uzi9jWkWz97vlHt",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30480,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30481,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/rnkefAJpWHsnHMi8E6DG6ib_-PCwTTQVRf7bI8fiYjw9HFbb02AItjJwtYJ_WNZk.9Uzi9jWkWz97vlHt"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30480,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30481,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "Agenda v1",
+        "publishOn": "2026-03-09T16:43:41.99Z",
+        "fileId": 30480,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30480,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30480,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Packet v2",
+        "publishOn": "2026-03-09T16:43:41.99Z",
+        "fileId": 30481,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30481,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30481,plainText=false)"
+      }
+    ]
   },
   {
     "id": 16096,
@@ -4813,29 +5383,43 @@
     "description": null,
     "location": "Town Hall, 333 Washington Street, Room 103 and Zoom, Brookline, Massachusetts, 02445",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16096",
-    "mediaUrl": null,
-    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30327,plainText=false)",
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/wsz9kYFyPjX8GswkNKMJ70-m0IYxqARow_rPk-YGR_DNIyjiw2M2c4peGPllplsh.fPTVyM-WuNUpb4jC",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30565,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30542,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30327,plainText=false)"
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/wsz9kYFyPjX8GswkNKMJ70-m0IYxqARow_rPk-YGR_DNIyjiw2M2c4peGPllplsh.fPTVyM-WuNUpb4jC"
     ],
-    "agendaPacketUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30565,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30542,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
     "publishedFiles": [
       {
         "type": "Agenda",
         "kind": "agenda",
-        "name": "E&RSC Agenda 3.12.26",
-        "publishOn": "2026-03-02T14:47:03.25Z",
-        "fileId": 30327,
+        "name": "Agenda v4",
+        "publishOn": "2026-03-12T16:12:47.207Z",
+        "fileId": 30565,
         "fileType": 1,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30327,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30327,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30565,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30565,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Packet v1",
+        "publishOn": "2026-03-12T08:47:43.97Z",
+        "fileId": 30542,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30542,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30542,plainText=false)"
       }
     ]
   },
@@ -4852,14 +5436,18 @@
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16090",
     "mediaUrl": null,
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30297,plainText=false)",
-    "agendaPacketUrl": null,
-    "minutesUrl": null,
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30503,plainText=false)",
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30672,plainText=false)",
     "mediaUrls": [],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30297,plainText=false)"
     ],
-    "agendaPacketUrls": [],
-    "minutesUrls": [],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30503,plainText=false)"
+    ],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30672,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -4871,6 +5459,26 @@
         "fileType": 1,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30297,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30297,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Agenda Packet",
+        "publishOn": "2026-03-10T16:28:35.817Z",
+        "fileId": 30503,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30503,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30503,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2026 03 12 Human Services Subcommittee Hearing Minutes",
+        "publishOn": "2026-03-23T14:39:32.443Z",
+        "fileId": 30672,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30672,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30672,plainText=false)"
       }
     ]
   },
@@ -4880,7 +5488,7 @@
     "categoryId": 28,
     "categoryName": "Advisory Committee",
     "title": "Advisory Committee Meeting",
-    "description": null,
+    "description": "Canceled",
     "location": null,
     "hasAgenda": false,
     "hasMedia": false,
@@ -4897,26 +5505,51 @@
     "publishedFiles": []
   },
   {
-    "id": 16080,
-    "dateTime": "2026-03-13T09:00:00Z",
-    "categoryId": 144,
-    "categoryName": "Expenditures & Revenues Study Committee",
-    "title": "E&RSC \"Future\" Subcommittee",
-    "description": null,
-    "location": "Virtually via Zoom",
+    "id": 16102,
+    "dateTime": "2026-03-13T09:30:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Land Use, Zoning and Sustainability Subcommittee Hearing WA 14 ADUs",
+    "description": "Remote on Zoom",
+    "location": "Remote on Zoom",
     "hasAgenda": true,
     "hasMedia": false,
-    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16080",
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16102",
     "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30439,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30576,plainText=false)",
     "minutesUrl": null,
     "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30439,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30576,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 13 Land Use Subcommittee Hearing Agenda",
+        "publishOn": "2026-03-08T18:30:43Z",
+        "fileId": 30439,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30439,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30439,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Updated Agenda Packet",
+        "publishOn": "2026-03-13T09:52:38.773Z",
+        "fileId": 30576,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30576,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30576,plainText=false)"
+      }
+    ]
   },
   {
     "id": 16097,
@@ -4927,29 +5560,43 @@
     "description": null,
     "location": "Town Hall, 333 Washington Street, Room 103 and Zoom, Brookline, Massachusetts, 02445",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16097",
-    "mediaUrl": null,
-    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30328,plainText=false)",
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/dmw01hcvBraAFLKkt5b8Nsnj8jtmJjKImpx1xXr8vqfF0kmATc94jqb9ZpV_Pt29.3a6ru-M9rCbKXyeD",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30573,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30574,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [
-      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30328,plainText=false)"
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/dmw01hcvBraAFLKkt5b8Nsnj8jtmJjKImpx1xXr8vqfF0kmATc94jqb9ZpV_Pt29.3a6ru-M9rCbKXyeD"
     ],
-    "agendaPacketUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30573,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30574,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
     "publishedFiles": [
       {
         "type": "Agenda",
         "kind": "agenda",
-        "name": "E&RSC Agenda 3.13.26",
-        "publishOn": "2026-03-02T14:49:16.8Z",
-        "fileId": 30328,
+        "name": "Agenda v2",
+        "publishOn": "2026-03-13T08:07:19.51Z",
+        "fileId": 30573,
         "fileType": 1,
-        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30328,plainText=false)",
-        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30328,plainText=false)"
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30573,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30573,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Packet v1",
+        "publishOn": "2026-03-13T08:07:19.51Z",
+        "fileId": 30574,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30574,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30574,plainText=false)"
       }
     ]
   },
@@ -4966,13 +5613,15 @@
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16091",
     "mediaUrl": null,
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30298,plainText=false)",
-    "agendaPacketUrl": null,
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30592,plainText=false)",
     "minutesUrl": null,
     "mediaUrls": [],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30298,plainText=false)"
     ],
-    "agendaPacketUrls": [],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30592,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
     "publishedFiles": [
@@ -4985,6 +5634,112 @@
         "fileType": 1,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30298,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30298,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Agenda Packet",
+        "publishOn": "2026-03-15T17:48:48.23Z",
+        "fileId": 30592,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30592,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30592,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16099,
+    "dateTime": "2026-03-16T19:00:00Z",
+    "categoryId": 59,
+    "categoryName": "Economic Development Advisory Board",
+    "title": "Economic Development Advisory Board Meeting",
+    "description": null,
+    "location": "Virtual (Zoom)",
+    "hasAgenda": true,
+    "hasMedia": true,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16099",
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/XcNSLqtJI_MqVtYySTL9SqWuoN29NkMJFRz4N7r7fHcQBsameXZJ1Fi5Mo9RwTau.Ym4wbQ2_Wn7-Nzof?startTime=1773702038000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30584,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30610,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/XcNSLqtJI_MqVtYySTL9SqWuoN29NkMJFRz4N7r7fHcQBsameXZJ1Fi5Mo9RwTau.Ym4wbQ2_Wn7-Nzof?startTime=1773702038000"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30584,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30610,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "EDAB Meeting Agenda 3",
+        "publishOn": "2026-03-13T20:12:00.25Z",
+        "fileId": 30584,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30584,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30584,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Economic Development Advisory Board Meeting Agenda Packet w/out guidelines",
+        "publishOn": "2026-03-16T19:02:19.463Z",
+        "fileId": 30610,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30610,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30610,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16103,
+    "dateTime": "2026-03-16T19:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Schools Subcommittee Hearing and Meeting on WAs 22 & 23",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16103",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30505,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30579,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30505,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30579,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 16 Schools Subcommittee Hearing & Meeting Agenda V3",
+        "publishOn": "2026-03-10T16:51:46.807Z",
+        "fileId": 30505,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30505,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30505,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Agenda Packet",
+        "publishOn": "2026-03-13T11:37:42.493Z",
+        "fileId": 30579,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30579,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30579,plainText=false)"
       }
     ]
   },
@@ -4995,20 +5750,143 @@
     "categoryName": "Select Board",
     "title": "Select Board Regular Meeting",
     "description": null,
-    "location": "Select Board Hearing Room 6th Floor, , Brookline Town Hall, and Zoom",
+    "location": "1281 West Roxbury Parkway, Robert T, Lynch Municipal Golf Course and zoom, Brookline, MA, 02445",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14772",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/LFM9zP1BiNSODw12xjFMTydf5nCeoxKxLTmHtgQi91z4wBp_fbjCEq7ztmHlRLPo.sEqEbOqgFCJqS6EI",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30568,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30614,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/LFM9zP1BiNSODw12xjFMTydf5nCeoxKxLTmHtgQi91z4wBp_fbjCEq7ztmHlRLPo.sEqEbOqgFCJqS6EI"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30568,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30614,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "SB Agenda 3.17.26",
+        "publishOn": "2026-03-12T16:41:23.173Z",
+        "fileId": 30568,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30568,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30568,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "SB PacketV4 3.17.26",
+        "publishOn": "2026-03-17T10:51:46.15Z",
+        "fileId": 30614,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30614,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30614,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16145,
+    "dateTime": "2026-03-17T09:45:00Z",
+    "categoryId": 144,
+    "categoryName": "Expenditures & Revenues Study Committee",
+    "title": "Expenditures and Revenues Study Committee Joint Meeting with Select Board",
+    "description": "Joint Meeting with Select Board",
+    "location": "Remote via Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16145",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30570,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30599,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30570,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30599,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "Agenda v1",
+        "publishOn": "2026-03-12T17:16:42.863Z",
+        "fileId": 30570,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30570,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30570,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "E&RSC Agenda Packet 3.17.26",
+        "publishOn": "2026-03-16T14:18:42.787Z",
+        "fileId": 30599,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30599,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30599,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16121,
+    "dateTime": "2026-03-17T17:00:00Z",
+    "categoryId": 87,
+    "categoryName": "School Committee",
+    "title": "School Policy Subcommittee Meeting",
+    "description": null,
+    "location": "Remote via Zoom",
+    "hasAgenda": true,
+    "hasMedia": true,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16121",
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/cnXSOPB9nU1K0LssG2SaMvpFlrrM9aMGK7oE6qAmphA6SIRdkrMauV2BTTnD5Qa1.LgZfCZsyE9teNqxm?startTime=1773781395000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30524,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30525,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/cnXSOPB9nU1K0LssG2SaMvpFlrrM9aMGK7oE6qAmphA6SIRdkrMauV2BTTnD5Qa1.LgZfCZsyE9teNqxm?startTime=1773781395000"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30524,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30525,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "3/17 Policy Subcommittee Agenda",
+        "publishOn": "2026-03-11T10:30:41.777Z",
+        "fileId": 30524,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30524,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30524,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "3/17 Policy Subcommittee Packet",
+        "publishOn": "2026-03-11T10:30:41.777Z",
+        "fileId": 30525,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30525,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30525,plainText=false)"
+      }
+    ]
   },
   {
     "id": 16060,
@@ -5016,43 +5894,146 @@
     "categoryId": 28,
     "categoryName": "Advisory Committee",
     "title": "Advisory Committee Meeting",
-    "description": null,
-    "location": null,
-    "hasAgenda": false,
-    "hasMedia": false,
+    "description": "This is a Hybrid Meeting",
+    "location": "Remote via Zoom and 333 Washington Street, Room 103, Brookline, MA, 02445",
+    "hasAgenda": true,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16060",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/rfebgPPB8XKDIbubCq5K8NlyIKhI45Zt_pdEPJQLdii5U_EYaVE6-T75AC1fiGkO.gKQz27szI-A2InEv?startTime=1773786916000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30577,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30617,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/rfebgPPB8XKDIbubCq5K8NlyIKhI45Zt_pdEPJQLdii5U_EYaVE6-T75AC1fiGkO.gKQz27szI-A2InEv?startTime=1773786916000"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30577,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30617,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "Updated 2026 03 17 Advisory Committee Agenda",
+        "publishOn": "2026-03-13T10:01:34.493Z",
+        "fileId": 30577,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30577,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30577,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "2026 03 17 Advisory Committee Agenda Packet",
+        "publishOn": "2026-03-17T15:25:55.42Z",
+        "fileId": 30617,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30617,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30617,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16127,
+    "dateTime": "2026-03-18T10:00:00Z",
+    "categoryId": 26,
+    "categoryName": "Select Board",
+    "title": "Select Board Licensing Hearing",
+    "description": null,
+    "location": "Brookline Town Hall, Room 111, First Floor, Brookline Town Hall, , and Zoom",
+    "hasAgenda": true,
+    "hasMedia": true,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16127",
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/A5oDvj-Gx7WzsXMCvWWDNS_PHwUGfPxQnVOzYtfWcr21Hv6NRNvsFVL28L_dEIfS.-akNLESkYcnae8Jm",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30625,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30596,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/A5oDvj-Gx7WzsXMCvWWDNS_PHwUGfPxQnVOzYtfWcr21Hv6NRNvsFVL28L_dEIfS.-akNLESkYcnae8Jm"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30625,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30596,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "Select Board Licensing Hearing- 3/18/2026 V2",
+        "publishOn": "2026-03-18T15:38:21.687Z",
+        "fileId": 30625,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30625,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30625,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Agenda Packet -Select Board Licensing Hearing- 3/18/2026 V2",
+        "publishOn": "2026-03-16T10:07:54.987Z",
+        "fileId": 30596,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30596,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30596,plainText=false)"
+      }
+    ]
   },
   {
     "id": 14151,
     "dateTime": "2026-03-18T17:00:00Z",
     "categoryId": 87,
     "categoryName": "School Committee",
-    "title": "School Finance and Capital Improvements Subcommittee Meeting",
+    "title": "School Finance and Capital Projects Subcommittee Meeting",
     "description": null,
     "location": "Remote via Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14151",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/HlGCSJ8i3RR42Q9s2caMEGjCmphsnqx3nbx5xD8ETowBCoE3pGYY5D0QgeiC5cWx.AuIKHGsMq3bkp4vJ?startTime=1773867838000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30602,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30603,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/HlGCSJ8i3RR42Q9s2caMEGjCmphsnqx3nbx5xD8ETowBCoE3pGYY5D0QgeiC5cWx.AuIKHGsMq3bkp4vJ?startTime=1773867838000"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30602,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30603,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "3/18/26 Finance Agenda",
+        "publishOn": "2026-03-16T14:31:56.077Z",
+        "fileId": 30602,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30602,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30602,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "3/18/26 Finance Packet",
+        "publishOn": "2026-03-16T14:31:56.077Z",
+        "fileId": 30603,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30603,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30603,plainText=false)"
+      }
+    ]
   },
   {
     "id": 16069,
@@ -5063,18 +6044,24 @@
     "description": "Remote Via Zoom",
     "location": null,
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16069",
-    "mediaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/KDEhIDAi90ZingOsMDRe1mozrCr9UmXtrmN6wIK1kkp24Ad6H0cXzUdayq1VkV_x.hNrdxYfYfnMnVtb_?startTime=1773867315000",
     "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30292,plainText=false)",
-    "agendaPacketUrl": null,
-    "minutesUrl": null,
-    "mediaUrls": [],
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30591,plainText=false)",
+    "minutesUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30670,plainText=false)",
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/KDEhIDAi90ZingOsMDRe1mozrCr9UmXtrmN6wIK1kkp24Ad6H0cXzUdayq1VkV_x.hNrdxYfYfnMnVtb_?startTime=1773867315000"
+    ],
     "agendaUrls": [
       "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30292,plainText=false)"
     ],
-    "agendaPacketUrls": [],
-    "minutesUrls": [],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30591,plainText=false)"
+    ],
+    "minutesUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30670,plainText=false)"
+    ],
     "otherUrls": [],
     "publishedFiles": [
       {
@@ -5086,6 +6073,122 @@
         "fileType": 1,
         "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30292,plainText=false)",
         "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30292,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Agenda Packet",
+        "publishOn": "2026-03-15T17:36:47.157Z",
+        "fileId": 30591,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30591,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30591,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "kind": "minutes",
+        "name": "2026 03 18 Capital Subcommittee Hearing Minutes",
+        "publishOn": "2026-03-23T14:34:19.813Z",
+        "fileId": 30670,
+        "fileType": 4,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30670,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30670,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16149,
+    "dateTime": "2026-03-18T17:00:00Z",
+    "categoryId": 87,
+    "categoryName": "School Committee",
+    "title": "School Committee Meeting (Finance)",
+    "description": null,
+    "location": "Remote via Zoom",
+    "hasAgenda": true,
+    "hasMedia": true,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16149",
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/HlGCSJ8i3RR42Q9s2caMEGjCmphsnqx3nbx5xD8ETowBCoE3pGYY5D0QgeiC5cWx.AuIKHGsMq3bkp4vJ?startTime=1773867838000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30604,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30605,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/HlGCSJ8i3RR42Q9s2caMEGjCmphsnqx3nbx5xD8ETowBCoE3pGYY5D0QgeiC5cWx.AuIKHGsMq3bkp4vJ?startTime=1773867838000"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30604,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30605,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "3/18/26 SC Agenda",
+        "publishOn": "2026-03-16T14:40:16.197Z",
+        "fileId": 30604,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30604,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30604,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "3/18/26 SC Agenda Packet",
+        "publishOn": "2026-03-16T14:40:16.197Z",
+        "fileId": 30605,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30605,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30605,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16088,
+    "dateTime": "2026-03-18T17:30:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Human Services Subcommittee Hearing - Health & Human Services Dept FY27 Budget",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16088",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30509,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30510,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30509,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30510,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 18 Human Services Subcommittee Hearing Agenda",
+        "publishOn": "2026-03-10T18:31:59.57Z",
+        "fileId": 30509,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30509,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30509,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Agenda Packet",
+        "publishOn": "2026-03-10T18:33:58.54Z",
+        "fileId": 30510,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30510,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30510,plainText=false)"
       }
     ]
   },
@@ -5098,18 +6201,45 @@
     "description": null,
     "location": "Brookline Town Hall, 5th Floor, and Remote via BIG Live Stream and Broadcast",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14117",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/ibOZG4LA2BRAOSc_a9xGp4R1PH5Gb3FfzaFjH0JBezy4llM8rg0cJOuauyn3SkUR.JgaXE3RAU98og9wY?startTime=1773957663000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30548,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30628,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/ibOZG4LA2BRAOSc_a9xGp4R1PH5Gb3FfzaFjH0JBezy4llM8rg0cJOuauyn3SkUR.JgaXE3RAU98og9wY?startTime=1773957663000"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30548,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30628,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "3/19/26 SC Agenda",
+        "publishOn": "2026-03-12T11:23:51.847Z",
+        "fileId": 30548,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30548,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30548,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Updated Packet 3.19.26",
+        "publishOn": "2026-03-18T18:52:30.267Z",
+        "fileId": 30628,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30628,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30628,plainText=false)"
+      }
+    ]
   },
   {
     "id": 16061,
@@ -5119,19 +6249,186 @@
     "title": "Advisory Committee Meeting",
     "description": null,
     "location": null,
-    "hasAgenda": false,
-    "hasMedia": false,
+    "hasAgenda": true,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16061",
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/kOuZ0c5LKfgQrDwCmlbl9J4lQ0exFf22pSbhbMmVKfO9EfLus2n4VwVxpS3nzoz6.dEQXr8j5D0xPO0kV",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30593,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30655,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/kOuZ0c5LKfgQrDwCmlbl9J4lQ0exFf22pSbhbMmVKfO9EfLus2n4VwVxpS3nzoz6.dEQXr8j5D0xPO0kV"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30593,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30655,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 19 Advisory Committee Agenda",
+        "publishOn": "2026-03-15T18:37:32.737Z",
+        "fileId": 30593,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30593,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30593,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Amended Agenda Packet",
+        "publishOn": "2026-03-20T14:17:09.753Z",
+        "fileId": 30655,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30655,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30655,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16129,
+    "dateTime": "2026-03-23T17:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Capital Subcommittee Hearing",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16129",
     "mediaUrl": null,
-    "agendaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30495,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
     "mediaUrls": [],
-    "agendaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30495,plainText=false)"
+    ],
     "agendaPacketUrls": [],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 23 Capital Subcommittee Hearing Agenda",
+        "publishOn": "2026-03-10T14:23:20.537Z",
+        "fileId": 30495,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30495,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30495,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16134,
+    "dateTime": "2026-03-23T18:30:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Schools Subcommittee Hearing & Meeting",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16134",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30629,plainText=false)",
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30629,plainText=false)"
+    ],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 23 UPDATED LINK Schools Subcommittee Hearing & Meeting Agenda",
+        "publishOn": "2026-03-18T23:00:26.82Z",
+        "fileId": 30629,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30629,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30629,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16135,
+    "dateTime": "2026-03-24T09:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Land Use, Zoning and Sustainability Subcommittee Hearing",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16135",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30534,plainText=false)",
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30534,plainText=false)"
+    ],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 24 Land Use Subcommittee Hearing Agenda",
+        "publishOn": "2026-03-11T12:37:58.677Z",
+        "fileId": 30534,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30534,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30534,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16160,
+    "dateTime": "2026-03-24T15:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Administration and Finance Subcommittee Hearing on WA 13",
+    "description": "Remote on Zoom",
+    "location": null,
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16160",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30654,plainText=false)",
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30654,plainText=false)"
+    ],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 24 Admin & Finance Subcommittee Hearing Agenda",
+        "publishOn": "2026-03-20T13:59:40.393Z",
+        "fileId": 30654,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30654,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30654,plainText=false)"
+      }
+    ]
   },
   {
     "id": 14999,
@@ -5142,18 +6439,33 @@
     "description": null,
     "location": "Brookline Town Hall, 5th Floor,, 333 Washington Street",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14999",
-    "mediaUrl": null,
-    "agendaUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/89WLIyLW_afNBhuinCzHxcIzFSZuxzlk28WrzeeX6cCorkF6PhHXRhH6Vli8rG4.1GrSVoDXBz4-SS8F?startTime=1774386334000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30633,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/89WLIyLW_afNBhuinCzHxcIzFSZuxzlk28WrzeeX6cCorkF6PhHXRhH6Vli8rG4.1GrSVoDXBz4-SS8F?startTime=1774386334000"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30633,plainText=false)"
+    ],
     "agendaPacketUrls": [],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "3.24.26 Negotiations Subcommittee Agenda",
+        "publishOn": "2026-03-19T10:50:10.94Z",
+        "fileId": 30633,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30633,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30633,plainText=false)"
+      }
+    ]
   },
   {
     "id": 14773,
@@ -5164,18 +6476,92 @@
     "description": null,
     "location": "Select Board Hearing Room 6th Floor, , Brookline Town Hall, and Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14773",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/ujk1x9oYWVE9DuTmVJGsRGZ1qKd9JDXB0U44p-IBIVwEVmuQuab2CZOy1U-eVbqq.PllnGxMe30MuwhWB?startTime=1774390297000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30683,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30697,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/ujk1x9oYWVE9DuTmVJGsRGZ1qKd9JDXB0U44p-IBIVwEVmuQuab2CZOy1U-eVbqq.PllnGxMe30MuwhWB?startTime=1774390297000"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30683,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30697,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "SB 3.24.26 Agenda V4",
+        "publishOn": "2026-03-24T12:23:37.793Z",
+        "fileId": 30683,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30683,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30683,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "SB 3.24.26 Packet V4",
+        "publishOn": "2026-03-24T15:34:05.603Z",
+        "fileId": 30697,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30697,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30697,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16161,
+    "dateTime": "2026-03-24T18:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Human Services Subcommittee Hearing on WA 21",
+    "description": "Remote on Zoom",
+    "location": null,
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16161",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30653,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30668,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30653,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30668,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 24 Human Services Subcommittee Hearing Agenda",
+        "publishOn": "2026-03-20T13:50:24.33Z",
+        "fileId": 30653,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30653,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30653,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Human Services Subcommittee Agenda Packet",
+        "publishOn": "2026-03-23T14:29:03.023Z",
+        "fileId": 30668,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30668,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30668,plainText=false)"
+      }
+    ]
   },
   {
     "id": 16062,
@@ -5183,21 +6569,48 @@
     "categoryId": 28,
     "categoryName": "Advisory Committee",
     "title": "Advisory Committee Meeting",
-    "description": null,
+    "description": "This is a Hybrid Meeting",
     "location": null,
-    "hasAgenda": false,
-    "hasMedia": false,
+    "hasAgenda": true,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16062",
-    "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/BHCgVpdF4aPlaw5sXxZVVAtBydHQwhXISZjgZm8w4YLorQWxqtL2ODekNEah52hr.imWv9H0Vrpxh4MHw?startTime=1774393198000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30656,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30691,plainText=false)",
     "minutesUrl": null,
-    "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/BHCgVpdF4aPlaw5sXxZVVAtBydHQwhXISZjgZm8w4YLorQWxqtL2ODekNEah52hr.imWv9H0Vrpxh4MHw?startTime=1774393198000"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30656,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30691,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 24 Advisory Committee Meeting Agenda",
+        "publishOn": "2026-03-20T14:38:48.487Z",
+        "fileId": 30656,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30656,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30656,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "Agenda Packet",
+        "publishOn": "2026-03-24T13:59:31.41Z",
+        "fileId": 30691,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30691,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30691,plainText=false)"
+      }
+    ]
   },
   {
     "id": 14216,
@@ -5208,18 +6621,80 @@
     "description": null,
     "location": "Town Hall, 5th Floor, and Remote via Zoom",
     "hasAgenda": true,
-    "hasMedia": false,
+    "hasMedia": true,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14216",
+    "mediaUrl": "https://brooklinema.zoomgov.com/rec/share/XOPnpHTKbSBnzx8ioOMZ4ijz2Y6x0NN7mejhwK5mDtq8aVB_n-S24KnWw-evIgff.jnfGewBy7KvauFEJ?startTime=1774468942000",
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30674,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30675,plainText=false)",
+    "minutesUrl": null,
+    "mediaUrls": [
+      "https://brooklinema.zoomgov.com/rec/share/XOPnpHTKbSBnzx8ioOMZ4ijz2Y6x0NN7mejhwK5mDtq8aVB_n-S24KnWw-evIgff.jnfGewBy7KvauFEJ?startTime=1774468942000"
+    ],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30674,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30675,plainText=false)"
+    ],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "3/25 Curriculum Subcom. Meeting",
+        "publishOn": "2026-03-23T16:02:31.403Z",
+        "fileId": 30674,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30674,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30674,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "3/25 Packet",
+        "publishOn": "2026-03-23T16:11:05.02Z",
+        "fileId": 30675,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30675,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30675,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16130,
+    "dateTime": "2026-03-25T17:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Capital Subcommittee Hearing",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16130",
     "mediaUrl": null,
-    "agendaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30586,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
     "mediaUrls": [],
-    "agendaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30586,plainText=false)"
+    ],
     "agendaPacketUrls": [],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 25 Capital Subcommittee Hearing - Continuation",
+        "publishOn": "2026-03-15T15:47:39.317Z",
+        "fileId": 30586,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30586,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30586,plainText=false)"
+      }
+    ]
   },
   {
     "id": 14116,
@@ -5233,15 +6708,40 @@
     "hasMedia": false,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14116",
     "mediaUrl": null,
-    "agendaUrl": null,
-    "agendaPacketUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30678,plainText=false)",
+    "agendaPacketUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30679,plainText=false)",
     "minutesUrl": null,
     "mediaUrls": [],
-    "agendaUrls": [],
-    "agendaPacketUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30678,plainText=false)"
+    ],
+    "agendaPacketUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30679,plainText=false)"
+    ],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "3/26/26 Agenda Final",
+        "publishOn": "2026-03-24T09:47:05.36Z",
+        "fileId": 30678,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30678,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30678,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "kind": "agendaPacket",
+        "name": "3/26/26 Packet Final",
+        "publishOn": "2026-03-24T09:47:05.36Z",
+        "fileId": 30679,
+        "fileType": 2,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30679,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30679,plainText=false)"
+      }
+    ]
   },
   {
     "id": 16063,
@@ -5251,41 +6751,172 @@
     "title": "Advisory Committee Meeting",
     "description": null,
     "location": null,
-    "hasAgenda": false,
+    "hasAgenda": true,
     "hasMedia": false,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16063",
     "mediaUrl": null,
-    "agendaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30657,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
     "mediaUrls": [],
-    "agendaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30657,plainText=false)"
+    ],
     "agendaPacketUrls": [],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 26 Advisory Committee Meeting Agenda",
+        "publishOn": "2026-03-20T14:45:41.77Z",
+        "fileId": 30657,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30657,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30657,plainText=false)"
+      }
+    ]
   },
   {
-    "id": 14224,
-    "dateTime": "2026-03-31T17:00:00Z",
-    "categoryId": 87,
-    "categoryName": "School Committee",
-    "title": "School Diversity, Equity, Inclusion & Justice Subcommittee Meeting",
+    "id": 16131,
+    "dateTime": "2026-03-30T17:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Capital Subcommittee Hearing",
     "description": null,
-    "location": "Remote via Zoom",
+    "location": "Remote on Zoom",
     "hasAgenda": true,
     "hasMedia": false,
-    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14224",
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16131",
     "mediaUrl": null,
-    "agendaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30587,plainText=false)",
     "agendaPacketUrl": null,
     "minutesUrl": null,
     "mediaUrls": [],
-    "agendaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30587,plainText=false)"
+    ],
     "agendaPacketUrls": [],
     "minutesUrls": [],
     "otherUrls": [],
-    "publishedFiles": []
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 30 Capital Subcommittee Agenda",
+        "publishOn": "2026-03-15T16:01:09.61Z",
+        "fileId": 30587,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30587,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30587,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16173,
+    "dateTime": "2026-03-30T17:30:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Public Safety Subcommittee Hearing on WA 10",
+    "description": "Remote on Zoom",
+    "location": null,
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16173",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30707,plainText=false)",
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30707,plainText=false)"
+    ],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 30 Public Safety Subcommittee Hearing Agenda WA 10",
+        "publishOn": "2026-03-24T17:07:52.87Z",
+        "fileId": 30707,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30707,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30707,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16175,
+    "dateTime": "2026-03-30T18:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Public Safety and CTO&S Joint Hearing on WA 11",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16175",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30708,plainText=false)",
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30708,plainText=false)"
+    ],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 03 30 Public Safety Subcommittee & CTO&S Joint Hearing Agenda",
+        "publishOn": "2026-03-24T17:14:11.21Z",
+        "fileId": 30708,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30708,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30708,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16138,
+    "dateTime": "2026-03-30T19:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Schools Subcommittee Hearing & Meeting",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16138",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30669,plainText=false)",
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30669,plainText=false)"
+    ],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "UPDATED 2026 03 30 Schools Subcommittee Hearing & Meeting Agenda",
+        "publishOn": "2026-03-23T14:32:06.633Z",
+        "fileId": 30669,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30669,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30669,plainText=false)"
+      }
+    ]
   },
   {
     "id": 14774,
@@ -5308,6 +6939,76 @@
     "minutesUrls": [],
     "otherUrls": [],
     "publishedFiles": []
+  },
+  {
+    "id": 16132,
+    "dateTime": "2026-04-06T17:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Capital Subcommittee Hearing - Continuation",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16132",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30588,plainText=false)",
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30588,plainText=false)"
+    ],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 04 06 Capital Subcommittee Agenda",
+        "publishOn": "2026-03-15T16:24:55.97Z",
+        "fileId": 30588,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30588,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30588,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16172,
+    "dateTime": "2026-04-06T17:30:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Ad Hoc Subcommittee on Warrant Articles 17 and 25 Hearing",
+    "description": "Remote on Zoom",
+    "location": null,
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16172",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30695,plainText=false)",
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30695,plainText=false)"
+    ],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 04 06 Ad Hoc Subcommittee on WA 17 and WA 25 Hearing Agenda",
+        "publishOn": "2026-03-24T15:07:21.42Z",
+        "fileId": 30695,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30695,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30695,plainText=false)"
+      }
+    ]
   },
   {
     "id": 14828,
@@ -5342,6 +7043,63 @@
     "hasAgenda": true,
     "hasMedia": false,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14152",
+    "mediaUrl": null,
+    "agendaUrl": null,
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": []
+  },
+  {
+    "id": 16133,
+    "dateTime": "2026-04-08T17:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Capital Subcommittee Hearing",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16133",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30589,plainText=false)",
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30589,plainText=false)"
+    ],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 04 08 Capital Subcommittee Agenda",
+        "publishOn": "2026-03-15T16:35:34.757Z",
+        "fileId": 30589,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30589,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30589,plainText=false)"
+      }
+    ]
+  },
+  {
+    "id": 16176,
+    "dateTime": "2026-04-09T16:00:00Z",
+    "categoryId": 87,
+    "categoryName": "School Committee",
+    "title": "School Negotiations Subcommittee Meeting",
+    "description": null,
+    "location": "Brookline Town Hall, 5th Floor, School Committee Room",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16176",
     "mediaUrl": null,
     "agendaUrl": null,
     "agendaPacketUrl": null,
@@ -5442,6 +7200,41 @@
     "publishedFiles": []
   },
   {
+    "id": 16148,
+    "dateTime": "2026-04-15T19:00:00Z",
+    "categoryId": 28,
+    "categoryName": "Advisory Committee",
+    "title": "Capital Subcommittee Hearing",
+    "description": null,
+    "location": "Remote on Zoom",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16148",
+    "mediaUrl": null,
+    "agendaUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30590,plainText=false)",
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [
+      "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30590,plainText=false)"
+    ],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": [
+      {
+        "type": "Agenda",
+        "kind": "agenda",
+        "name": "2026 04 15 Capital Subcommittee Agenda",
+        "publishOn": "2026-03-15T16:43:57.843Z",
+        "fileId": 30590,
+        "fileType": 1,
+        "url": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFile(fileId=30590,plainText=false)",
+        "streamUrl": "https://brooklinema.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=30590,plainText=false)"
+      }
+    ]
+  },
+  {
     "id": 14119,
     "dateTime": "2026-04-16T18:00:00Z",
     "categoryId": 87,
@@ -5464,6 +7257,28 @@
     "publishedFiles": []
   },
   {
+    "id": 16177,
+    "dateTime": "2026-04-27T16:00:00Z",
+    "categoryId": 87,
+    "categoryName": "School Committee",
+    "title": "School Negotiations Subcommittee Meeting",
+    "description": null,
+    "location": "Town Hall, 5th Floor, School Committee Room",
+    "hasAgenda": true,
+    "hasMedia": false,
+    "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/16177",
+    "mediaUrl": null,
+    "agendaUrl": null,
+    "agendaPacketUrl": null,
+    "minutesUrl": null,
+    "mediaUrls": [],
+    "agendaUrls": [],
+    "agendaPacketUrls": [],
+    "minutesUrls": [],
+    "otherUrls": [],
+    "publishedFiles": []
+  },
+  {
     "id": 14831,
     "dateTime": "2026-04-28T17:30:00Z",
     "categoryId": 26,
@@ -5471,7 +7286,7 @@
     "title": "Select Board Regular Meeting",
     "description": null,
     "location": "Select Board Hearing Room 6th Floor, , Brookline Town Hall, and Zoom",
-    "hasAgenda": false,
+    "hasAgenda": true,
     "hasMedia": false,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14831",
     "mediaUrl": null,
@@ -5773,12 +7588,12 @@
   },
   {
     "id": 14607,
-    "dateTime": "2026-06-16T17:30:00Z",
+    "dateTime": "2026-06-16T09:30:00Z",
     "categoryId": 26,
     "categoryName": "Select Board",
-    "title": "Select Board Regular Meeting",
+    "title": "Select Board Work Session",
     "description": null,
-    "location": "Select Board Hearing Room 6th Floor, , Brookline Town Hall, and Zoom",
+    "location": "Ouimet Room, Brookline Golf Course, 1218 W Roxbury Parkway, Chestnut Hill, MA",
     "hasAgenda": false,
     "hasMedia": false,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14607",
@@ -5971,12 +7786,12 @@
   },
   {
     "id": 14798,
-    "dateTime": "2026-09-15T17:30:00Z",
+    "dateTime": "2026-09-15T09:30:00Z",
     "categoryId": 26,
     "categoryName": "Select Board",
-    "title": "Select Board Regular Meeting",
+    "title": "Select Board Work Session",
     "description": null,
-    "location": "Select Board Hearing Room 6th Floor, , Brookline Town Hall, and Zoom",
+    "location": "Ouimet Room, Brookline Golf Course, 1218 W Roxbury Parkway, Chestnut Hill, MA",
     "hasAgenda": false,
     "hasMedia": false,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14798",
@@ -6147,12 +7962,12 @@
   },
   {
     "id": 14633,
-    "dateTime": "2026-12-15T17:30:00Z",
+    "dateTime": "2026-12-15T09:30:00Z",
     "categoryId": 26,
     "categoryName": "Select Board",
-    "title": "Select Board Regular Meeting",
+    "title": "Select Board Work Session",
     "description": null,
-    "location": "Select Board Hearing Room 6th Floor, , Brookline Town Hall, and Zoom",
+    "location": "Ouimet Room, Brookline Golf Course, 1218 W Roxbury Parkway, Chestnut Hill, MA",
     "hasAgenda": false,
     "hasMedia": false,
     "meetingUrl": "https://brooklinema.portal.civicclerk.com/event/14633",
